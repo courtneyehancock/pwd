@@ -1,0 +1,699 @@
+/*
+  Theme Name: Professional and Workforce Development
+  Theme URI:
+  Author: Courtney Hancock
+  Description: This template was made for the University of Florida Office of Professional and Workforce Development by Courtney Hancock
+  Version: 1.0
+  License: Open
+  Text Domain: pwd
+
+*/
+
+
+/* -- Universal Styling -- */
+@font-face {
+	font-family: 'GentonaBook_Italic';
+	src: url('fonts/GentonaBook_Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GentonaBook';
+	src: url('fonts/GentonaBook.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GentonaHeavy_Italic';
+	src: url('fonts/GentonaHeavy_Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GentonaHeavy';
+	src: url('fonts/GentonaHeavy.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GentonaLight_Italic';
+	src: url('fonts/GentonaLight_Italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GentonaLight';
+	src: url('fonts/GentonaLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'QuadonHeavy';
+	src: url('fonts/QuadonHeavy.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'QuadonMedium';
+	src: url('fonts/QuadonMedium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'QuadonThin';
+	src: url('fonts/QuadonThin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay-Black';
+	src: url('fonts/PlayfairDisplay-Black.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay-BlackItalic';
+	src: url('fonts/PlayfairDisplay-BlackItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay-Bold';
+	src: url('fonts/PlayfairDisplay-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay-BoldItalic';
+	src: url('fonts/PlayfairDisplay-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay-Italic';
+	src: url('fonts/PlayfairDisplay-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay-Regular';
+	src: url('fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay-SemiBold';
+	src: url('fonts/PlayfairDisplay-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay-SemiBoldItalic';
+	src: url('fonts/PlayfairDisplay-SemiBoldItalic.ttf') format('truetype');
+}
+
+h1 {
+  font-family: 'GentonaBook', sans-serif !important;
+  color: #00529b;
+	font-size: 30px;
+	font-weight:bold;
+}
+
+h2 {
+  font-family: 'QuadonMedium', serif !important;
+  color: #00529b;
+	font-size: 1.2em;
+	letter-spacing:.8px;
+}
+
+h3 {
+  font-family: 'QuadonThin', serif !important;
+  color: #00529b;
+	font-size: 1em;
+	font-weight:bold;
+	letter-spacing:1.5px;
+}
+
+h4 {
+  font-family: 'GentonaLight', sans-serif !important;
+  color: #00529b;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+h5 {
+  font-family: 'GentonaLight_Italic', sans-serif !important;
+  color: #00529b;
+	font-size: 18px;
+}
+
+h6 {
+  font-family: 'GentonaLight', sans-serif !important;
+  color: #00529b;
+	font-size: 18px;
+}
+
+p {
+  font-family: 'GentonaLight', sans-serif !important;
+	color: #212121;
+	font-size: 16px;
+}
+
+
+a {
+	color: #ffffff;
+}
+
+a.aa {
+	color:#ff590e;
+}
+a.aa:hover {
+	color:#00529b;
+}
+
+a.credit-de-link {
+	color:#fff;
+}
+
+a.credit-de-link:hover {
+	color:#00529b;
+}
+a:hover {
+	color: #ff590e;
+	text-decoration: none;
+}
+
+.btn {
+    border: 3px solid #ff590e;
+    font-family: 'GentonaLight' !important;
+    color: #ffffff;
+    border-radius: 0;
+		background-color: #ff590e;
+}
+.btn:hover {
+  border: 3px solid #ffffff !important;
+  background-color: #ffffff;
+  color: #ff590e;
+}
+
+/*body{
+  padding-bottom:500px;
+}*/
+
+.main-content{
+/*  min-height:190vh;*/
+  background:#fff;
+  z-index:1;
+	position:relative;
+}
+
+.page-title {
+	padding: 25% 0 0 10%;
+	margin-top: -30px;
+	line-height: .8em;
+	font-size: 2em;
+	color: #fff;
+}
+
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+
+ul.objectives {
+    color: #f37022;
+    font-size: 15px;
+    font-style: italic;
+	}
+/* -- HEADER -- */
+header {
+  background-color: #fff;
+}
+
+.row.main-nav {
+    margin-left: 0;
+    margin-right: 0;
+		box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+}
+
+.header-text {
+  line-height: .2;
+  /*padding-left:1em;*/
+  padding-top:2.3em;
+}
+.head-text{
+  color:#00529b;
+  /*font-family: 'GentonaLight',sans-serif !important;*/
+	font-family: 'PlayfairDisplay-Regular', serif !important;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: .5px;
+  /*font-style: italic;*/
+	font-size: 20px;
+}
+
+img.uf-logo {
+	max-width: 75px;
+/*	margin-top: 2%;*/
+  /*margin-left: -25%;*/
+	max-height:60px;
+  position: absolute;
+  left:0;
+  padding:15px;
+  background-color:#ff590e;
+	/*background-image: linear-gradient(#00529b, #101c3d);*/
+}
+
+.main-nav {
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+  background-color:#fff;
+}
+
+#mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item > a.mega-menu-link {
+    letter-spacing: 1.5px;
+}
+
+/* -- HOME PAGE -- */
+h1.home-head{
+	color:#fff;
+	padding: 1% 5%;
+	/*text-shadow: 3px 4px 0px #bc581a;*/
+	border: 2px solid #a8dcd9;
+	/*position: absolute;
+	bottom: 138px;*/
+	text-align:center;
+}
+
+h2.home-subhead {
+	color:#fff;
+	font-size: 1em;
+	/*position:absolute;
+	bottom: 97px;
+	right: 60px;*/
+	text-align:center;
+}
+
+a.apply-btn.btn {
+	display:flex;
+	justify-content:center;
+}
+
+h2.ab-head2 {
+  color: #fff;
+}
+p.credit-de {
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    background-color: #ff590e;
+    padding: 19px 23px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0 0 0 20px;
+    text-align: center;
+		/*margin-top: 39px;*/
+}
+
+.grid {
+	overflow: hidden;
+	margin: 0;
+/*	padding: 0 0 2em 0;*/
+	width: 100%;
+	list-style: none;
+	text-align: center;
+	/*320 px*/
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	background-color: rgb( 0, 82, 155, 0.05);
+}
+
+/* Common style */
+.grid figure {
+	position: relative;
+	z-index: 1;
+	/*display: inline-flex;*/
+	overflow: hidden;
+	/*margin: -0.135em;*/
+	/*media query for full size*/
+	/*width: 33.333%;*/
+	/*width: 100%;*/
+	height: 545px;
+	/*height: 100%;*/
+	/*background: #00529b;*/
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	opacity: 0.4;
+	object-fit: cover;
+}
+
+.grid figure figcaption {
+	padding: 263px 220px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	overflow: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+/*	opacity: 0;*/
+}
+
+.grid figure h2 {
+	/*word-spacing: -0.15em;*/
+	font-weight: 300;
+}
+
+.grid figure h2 span {
+	font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+h1.grid-text,
+h5.grid-text {
+	text-transform:uppercase;
+}
+
+/*.about-who {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 1%;
+	width: 100%;
+	font-size: 1.8rem;
+	max-width: 1200px;
+}*/
+
+/*.vertical {
+	/*border-right: 2px solid #00529b;*/
+	/*padding: 4%;
+	color: #bc581a;
+	width: 40%;
+	text-align: right;
+}*/
+
+figure.effect-sarah {
+	background: #00529b;
+}
+
+figure.effect-sarah img {
+	width: -webkit-calc(100% + 20px);
+	width: calc(100% + 20px);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-10px,0,0);
+	transform: translate3d(-10px,0,0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+figure.effect-sarah:hover img {
+	opacity: 0.2;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-sarah figcaption {
+	text-align: center;
+}
+
+figure.effect-sarah h2 {
+	position: relative;
+	overflow: hidden;
+	padding: 0.5em 0;
+}
+
+figure.effect-sarah h2::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	content: '';
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+}
+
+figure.effect-sarah:hover h2::after {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-sarah p {
+	padding: 1em 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+	width: 100%;
+}
+
+figure.effect-sarah:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+/* -- FOOTER -- */
+
+footer {
+	/*background-image: url(https://ufcwde.com/wp-content/uploads/2020/02/prism.png);*/
+	background-color: #00285e;
+	padding: 3% 0 3% 0;
+/*	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:500px;
+	z-index:0;*/
+}
+
+.final-footer {
+	background-color: #001b3d;
+	padding: 1% 3%;
+	position:absolute;
+}
+
+.final-footer img {
+	width: 100%;
+}
+
+footer p {
+	color: #fff;
+}
+
+.widget-footer h3.widget-title {
+    font-size: 1.2rem;
+  /*  color: #f37022;*/
+}
+footer ul {
+    font-family: 'GentonaBook' !important;
+    list-style-type: none;
+		padding-left: 0;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s;
+}
+
+footer li a:hover {
+  color: #ff590e;
+	text-decoration: none;
+}
+
+.widget-footer.widget-right a {
+  color: #fff;
+}
+.widget-footer.widget-right a:hover {
+  color: #ff590e;
+}
+
+footer img {
+	max-width: 300px !important;
+}
+
+/* -- MEDIA QUERIES -- */
+@media (min-width: 500px){
+	img.header-text {
+		max-width: 175px;
+		position: absolute;
+		left: 40px;
+		top: 22px;
+		display:block;
+	}
+}
+
+@media (min-width: 600px) {
+	.grid figure figcaption {
+		overflow: visible;
+	}
+	h1.home-head {
+		font-size: 4.5em;
+		left: 66px;
+		position: absolute;
+		bottom: 138px;
+	}
+	h2.home-subhead {
+		font-size: 2em;
+		bottom:90px;
+		left:165px;
+		position:absolute;
+	}
+	a.apply-btn.btn {
+    position: absolute;
+    bottom: 95px;
+    left: 470px;
+	}
+}
+
+@media (min-width: 700px) {
+	/*.grid figure {
+		width: 80%;*/
+	}
+	/*.grid {
+		justify-content:center;*/
+	}
+	/*.contact-departments {
+      margin: 0 20%;
+    }*/
+}
+
+@media (min-width: 767px) {
+	.page-title {
+		font-size: 4em;
+	}
+}
+
+@media (min-width: 900px) {
+  .grid {
+    display: block;
+  }
+}
+@media (min-width:999px){
+  img.uf-logo {
+  	max-width: 95px;
+  /*	margin-top: 2%;*/
+    /*margin-left: -25%;*/
+  	max-height:75px;
+	}
+	footer {
+		position:fixed;
+		bottom:0;
+		left:0;
+		width:100%;
+		height:400px;
+		z-index:0;
+	}
+	.final-footer {
+		bottom:0;
+	}
+	body{
+	  padding-bottom:400px;
+	}
+}
+
+@media (min-width: 1001px) {
+	.page-title {
+		font-size: 6em;
+	}
+}
+@media (min-width: 1200px) {
+	.grid figure {
+		width: 50%;
+	}
+	figure.effect-sarah.courses {
+    width: 33.333%;
+    height: 300px;
+	}
+
+	.grid-bottom {
+		margin-top:-6px;
+	}
+	.grid {
+		display: inline-flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		/*margin: 0;*/
+		height:545px;
+	}
+	.course-grid {
+		margin-top: -162px;
+	  margin-bottom: -136px;
+	}
+	.bottom-img {
+    margin-left: 5%;
+	}
+
+	.grid-text {
+		width:45%;
+	}
+	figcaption.course-fig {
+    padding: 130px 23px !important;
+	}
+}
+
+@media (min-width: 1270px) {
+  img.uf-logo {
+  	/*max-width: 150px;*/
+  /*	margin-top: 2%;*/
+    /*margin-left: -4.5%;*/
+  /*	max-height:125px;*/
+  /*  padding:30px;*/
+    top:0;
+    margin-left:0;
+  }
+/*  .header-text {
+    padding-top: 1.5em;
+    padding-left: 4em;
+  }*/
+}
+
+@media (min-width:2000px) {
+	footer {
+		height:420px;
+	}
+	body{
+		padding-bottom:420px;
+	}
+}
+
+@media only screen and (max-width: 1205px) {
+  .header-text {
+    display:none;
+  }
+}
+
+
+@media only screen and (max-width: 999px) {
+	footer {
+		text-align: center;
+	}
+	.main-nav {
+		position: relative;
+	}
+}
