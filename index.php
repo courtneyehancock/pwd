@@ -8,7 +8,7 @@
         the_post();?>
 
         <div class="col-lg-4 posts">
-          <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+          <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
           <p class="category-label">Category: <?php the_category(); ?></p>
           <?php the_post_thumbnail('medium'); ?>
           <?php the_excerpt(); ?>
