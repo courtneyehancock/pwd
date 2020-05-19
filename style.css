@@ -323,6 +323,11 @@ ul.post-categories {
 .post-info {
 	margin:10px 0px;
 }
+
+img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    max-width: 800px;
+    height: auto;
+}
 /* -- FOOTER -- */
 
 footer {
