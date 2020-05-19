@@ -11,7 +11,6 @@
           <div class="col-lg-4 posts">
             <?php the_post_thumbnail('medium'); ?>
             <h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-            <p class="category-label">Category: <?php the_category(); ?></p>
             <?php the_excerpt(); ?>
             <?php
               $archive_year = get_the_time('Y');
@@ -19,6 +18,7 @@
               $archive_day = get_the_time('d');
             ?>
             <p>Published: <a href="<?php echo get_day_link($archive_year, $archive_month, $archive_day); ?>"><?php echo get_the_date(); ?></a></p>
+            <p class="category-label">Category: <?php the_category(); ?></p>
             <p><?php echo "Article written by: " . get_the_author(); ?></p>
           </div>
     <?php } //ends while loop
