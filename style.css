@@ -320,6 +320,9 @@ ul.post-categories {
 	border-bottom: 1px solid #ff590e;
 }
 
+.post-info {
+	margin:10px 0px;
+}
 /* -- FOOTER -- */
 
 footer {
