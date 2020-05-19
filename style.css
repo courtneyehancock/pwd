@@ -295,7 +295,22 @@ p.credit-de {
     text-align: center;
 		/*margin-top: 39px;*/
 }
+/* -- BLOG -- */
+.col-lg-12.individual-post {
+	padding: 20px 40px;
+}
 
+.col-lg-12.individual-post:nth-child(odd) {
+		background: #f6e7e7;
+}
+
+.posts {
+	padding:20px 40px;
+}
+
+h2.archive-title {
+	margin: 15px 20px;
+}
 /* -- FOOTER -- */
 
 footer {

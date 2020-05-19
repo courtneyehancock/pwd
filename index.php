@@ -1,14 +1,29 @@
 <?php get_header(); ?>
 
+<div class="container">
+  <div class="row">
   <?php
     if(have_posts()){
       while(have_posts()){
         the_post();?>
 
-        <h2><?php the_title(); ?></h2>
-        <?php the_content();
-      }
-    }
-  ?>
+        <div class="col-lg-6 posts">
+          <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+          <p class="post-category">Category: <?php the_category(); ?></p>
+          <?php the_post_thumbnail('medium'); ?>
+          <?php the_excerpt(); ?>
+          <?php
+            $archive_year = get_the_time('Y');
+            $archive_month = get_the_time('m');
+            $archive_day = get_the_time('d');
+          ?>
+          <p>Published: <a href="<?php echo get_day_link($archive_year, $archive_month, $archive_day); ?>"><?php echo get_the_date(); ?></a></p>
+          <p><?php echo "Article written by: " . get_the_author(); ?></p>
+        </div>
+  <?php } //ends while loop
+    }//end if statement
+    ?>
+  </div>
+</div>
 
 <?php get_footer(); ?>
