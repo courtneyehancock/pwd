@@ -290,14 +290,6 @@ p.credit-de {
 		/*margin-top: 39px;*/
 }
 /* -- BLOG -- */
-.col-lg-12.individual-post {
-	padding: 20px 40px;
-}
-
-.col-lg-12.individual-post:nth-child(odd) {
-		background: #f6e7e7;
-}
-
 .col-lg-4.posts {
 	padding:15px;
 	border: 1px solid #f0ecec;
@@ -319,6 +311,10 @@ p.category-label,
 ul.post-categories {
 	list-style-type: none;
 	margin-bottom: 0;
+}
+
+.post-title {
+	padding-top: 5px;
 }
 
 /* -- FOOTER -- */

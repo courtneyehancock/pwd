@@ -10,7 +10,7 @@
 
           <div class="col-lg-4 posts">
             <?php the_post_thumbnail('medium'); ?>
-            <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+            <h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             <p class="category-label">Category: <?php the_category(); ?></p>
             <?php the_excerpt(); ?>
             <?php
