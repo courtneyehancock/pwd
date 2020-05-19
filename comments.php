@@ -1,6 +1,6 @@
 <?php
 
-/*foreach ($comments as $comment): ?>
+foreach ($comments as $comment): ?>
   <div class="comments"><?php
     echo '<div class="comment-author">' . get_comment_author_link() . '</div>';
     echo '<div class="comment-date">' . get_comment_date() . '</div>';
@@ -9,7 +9,7 @@
 endforeach;
 
 
-comment_form();*/
+comment_form();
 
 
 ?>
