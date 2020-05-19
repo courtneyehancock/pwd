@@ -293,6 +293,7 @@ p.credit-de {
 .col-lg-4.posts {
 	padding:15px;
 	border: 1px solid #f0ecec;
+	margin: 5px 0;
 }
 
 .posts p {
@@ -311,6 +312,7 @@ p.category-label,
 ul.post-categories {
 	list-style-type: none;
 	margin-bottom: 0;
+	padding-left: 5px;
 }
 
 .post-title {
