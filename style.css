@@ -311,6 +311,16 @@ p.credit-de {
 h2.archive-title {
 	margin: 15px 20px;
 }
+
+.category-label,
+.post-categories {
+	display: inline-block;
+}
+
+ul.post-categories {
+	list-style-type: none;
+}
+
 /* -- FOOTER -- */
 
 footer {

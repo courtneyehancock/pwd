@@ -7,9 +7,9 @@
       while(have_posts()){
         the_post();?>
 
-        <div class="col-lg-6 posts">
+        <div class="col-lg-4 posts">
           <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-          <p class="post-category">Category: <?php the_category(); ?></p>
+          <p class="category-label">Category: <?php the_category(); ?></p>
           <?php the_post_thumbnail('medium'); ?>
           <?php the_excerpt(); ?>
           <?php
