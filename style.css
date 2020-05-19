@@ -138,26 +138,20 @@ p {
 
 
 a {
-	color: #ffffff;
+	color: #ff590e;
+}
+
+a:hover {
+	color: #00529b;
+	text-decoration: none;
 }
 
 a.aa {
 	color:#ff590e;
 }
+
 a.aa:hover {
 	color:#00529b;
-}
-
-a.credit-de-link {
-	color:#fff;
-}
-
-a.credit-de-link:hover {
-	color:#00529b;
-}
-a:hover {
-	color: #ff590e;
-	text-decoration: none;
 }
 
 .btn {
@@ -304,7 +298,7 @@ p.credit-de {
 		background: #f6e7e7;
 }
 
-.posts {
+.col-lg-4.posts.posts {
 	padding:20px 40px;
 }
 
@@ -312,7 +306,7 @@ h2.archive-title {
 	margin: 15px 20px;
 }
 
-.category-label,
+p.category-label,
 .post-categories {
 	display: inline-block;
 }
