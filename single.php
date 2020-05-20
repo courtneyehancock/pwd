@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="main-content pb-5">
+<div class="main-content pt-5 pb-5">
   <div class="container">
   <?php
     if(have_posts()){
