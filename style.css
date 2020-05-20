@@ -335,6 +335,11 @@ img {
 	height: auto;
 }
 
+.written-by,
+.published {
+	display: inline-block;
+}
+
 /* -- FOOTER -- */
 
 footer {
