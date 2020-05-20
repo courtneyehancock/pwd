@@ -3,7 +3,7 @@
 <div class="main-content">
   <div class="container-fluid">
     <div class="internal-div">
-      <h1 style="color: #00529b; font-size: 2em; text-align: right; margin-right: 2em;">ABOUT</h1>
+      <h1 style="color: #00529b; font-size: 2em; text-align: right; margin-right: 2em;">OPWD INSIDER</h1>
 
       <hr />
 
