@@ -290,10 +290,10 @@ p.credit-de {
 		/*margin-top: 39px;*/
 }
 /* -- BLOG -- */
-.col-lg-4.posts {
+.col-lg-5.posts {
 	padding:10px;
-	border: 1px solid #f0ecec;
-	margin: 5px 0;
+	box-shadow: 1px 5px 8px rgba(0,0,0,.1);
+	margin: .5%;
 }
 
 .posts p {
