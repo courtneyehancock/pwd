@@ -329,6 +329,11 @@ img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
     height: auto;
 }
 
+img {
+	width: 100%;
+	height: auto;
+}
+
 /* -- FOOTER -- */
 
 footer {
