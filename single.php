@@ -10,17 +10,9 @@
           <?php the_post_thumbnail(); ?>
         </div>
         <h2 class="post-title"><?php the_title(); ?></h2>
+        <p><?php echo "This post is written by : " . get_the_author(); ?></p>
         <p><?php echo "Published: " . get_the_date(); ?></p>
         <?php the_content(); ?>
-        <p><?php echo "This post is written by : " . get_the_author(); ?></p>
-
-        <div class="pagination-single">
-          <?php previous_post_link('%link', 'Previous Post >>');?>
-        </div>
-
-        <div class="pagination-single">
-          <?php next_post_link('%link', 'Next Post >>');?>
-        </div>
 
       </div>
         <?php
