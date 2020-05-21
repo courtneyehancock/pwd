@@ -171,6 +171,7 @@ a.aa:hover {
 	font-family: 'PlayfairDisplay-Regular' !important;
 	font-style:italic;
 	font-size: 14px;
+	margin:0;
 }
 /*body{
   padding-bottom:500px;
@@ -526,5 +527,11 @@ footer img {
 	}
 	.main-nav {
 		position: relative;
+	}
+}
+
+@media only screen and (max-width: 979px) {
+	.header-text {
+		display:none;
 	}
 }
