@@ -512,9 +512,10 @@ footer img {
 	}
 }
 
-@media only screen and (max-width: 1205px) {
+@media only screen and (max-width: 1257px) {
   .header-text {
-    display:none;
+    /*display:none;*/
+		font-size: 15px;
   }
 }
 
