@@ -310,6 +310,13 @@ p.credit-de {
 	filter: grayscale(100%); /* FF 35+ */
 }
 
+/* -- CONTACT US -- */
+img.img-fluid.headshots {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+}
+
 /* -- BLOG -- */
 .col-lg-5.posts {
 	padding:10px;
