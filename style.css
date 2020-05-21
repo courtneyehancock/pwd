@@ -167,6 +167,9 @@ a.aa:hover {
   color: #ff590e;
 }
 
+.p-font {
+	font-family: 'PlayfairDisplay-Italic';
+}
 /*body{
   padding-bottom:500px;
 }*/
