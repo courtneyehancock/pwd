@@ -530,8 +530,7 @@ footer img {
 
 @media only screen and (max-width: 1257px) {
   .header-text {
-    /*display:none;*/
-		font-size: 15px;
+    display:none;
   }
 }
 
@@ -542,11 +541,5 @@ footer img {
 	}
 	.main-nav {
 		position: relative;
-	}
-}
-
-@media only screen and (max-width: 979px) {
-	.header-text {
-		display:none;
 	}
 }
