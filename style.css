@@ -168,7 +168,9 @@ a.aa:hover {
 }
 
 .p-font {
-	font-family: 'PlayfairDisplay-Italic' !important;
+	font-family: 'PlayfairDisplay-Regular' !important;
+	font-style:italic;
+	font-size: 14px;
 }
 /*body{
   padding-bottom:500px;
