@@ -361,6 +361,9 @@ img {
 	display: inline-block;
 }
 
+ul.post-categories li {
+    display: inline;
+}
 /* -- FOOTER -- */
 
 footer {
