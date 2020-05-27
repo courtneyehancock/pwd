@@ -484,7 +484,7 @@ footer img {
 	}
 }
 
-@media (min-width: 999px) {
+@media (min-width: 992px) {
 	footer {
 		height:400px;
 	}
