@@ -463,10 +463,10 @@ footer img {
 
 @media (min-width:770px){
   img.uf-logo {
-  	max-width: 95px;
+  	width: 96px;
   /*	margin-top: 2%;*/
     /*margin-left: -25%;*/
-  	max-height:75px;
+  /*	max-height:75px;*/
 	}
 	footer {
 		position:fixed;
