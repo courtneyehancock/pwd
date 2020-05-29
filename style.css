@@ -130,7 +130,8 @@ h6 {
 	font-size: 18px;
 }
 
-p {
+p,
+li {
   font-family: 'GentonaLight', sans-serif !important;
 	color: #212121;
 	font-size: 16px;
