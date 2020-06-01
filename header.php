@@ -30,7 +30,7 @@
         <div>
           <!--Navigation-->
           <a href="<?php echo home_url('/'); ?>"><div class="header-text">
-            <p class="head-text">Professional and Workforce Development</p>
+            <p class="head-text">Office of Professional and Workforce Development</p>
           </div></a>
         </div>
       </div>
