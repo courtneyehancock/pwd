@@ -26,7 +26,6 @@
           }
           ?>
         </div>
-      </div>
 
         <div>
           <!--Navigation-->
@@ -34,6 +33,7 @@
             <p class="head-text">Professional and Workforce Development</p>
           </div></a>
         </div>
+      </div>
 
       <div class="col-md-7" id="site-nav">
         <!--Navigation-->
