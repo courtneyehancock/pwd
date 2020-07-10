@@ -6,7 +6,7 @@ get_header();
     <div class="row">
       <div class="col-lg-12">
         <?php if(have_posts()){?>
-                <h1><?php printf(__('Search Results for : %s'), '<span>' . get_search_query() . '</span>');?></h1>
+                <h1><?php printf(__('SEARCH RESULTS FOR : %s'), '<span>' . get_search_query() . '</span>');?></h1>
                 <hr>
                 <?php while(have_posts()){
                   the_post(); ?>
