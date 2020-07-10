@@ -9,7 +9,7 @@
 
     </div>
   </div>
-  <div>
+  <div class="container-fluid">
     <div class="row justify-content-center">
     <?php
       if(have_posts()){
