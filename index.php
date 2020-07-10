@@ -6,7 +6,13 @@
       <h1 style="color: #00529b; font-size: 2em; text-align: right; margin-right: 2em;">OPWD INSIDER</h1>
 
       <hr />
-
+      <div class="container d-flex p-4 justify-content-center align-content-center align-items-end">
+    <h2 class="pr-3">Looking for something specific?</h2><?php
+    get_search_form();
+  }
+?>
+			</form>
+    </div>
     </div>
   </div>
   <div class="container-fluid">
