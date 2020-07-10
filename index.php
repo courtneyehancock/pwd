@@ -7,12 +7,14 @@
 
       <hr />
       <div class="container d-flex p-4 justify-content-center align-content-center align-items-end">
-    <h2 class="pr-3">Looking for something specific?</h2><?php
-    get_search_form();
-  }
-?>
+    <h2 class="pr-3">Looking for something specific?</h2><form role="search" method="get" id="searchform" class="searchform" action="https://pwd.aa.ufl.edu/">
+				<div>
+					<label class="screen-reader-text" for="s">Search for:</label>
+					<input type="text" value="" name="s" id="s">
+					<input type="submit" id="searchsubmit" value="Search">
+				</div>
 			</form>
-    </div>
+      </div>
     </div>
   </div>
   <div class="container-fluid">
