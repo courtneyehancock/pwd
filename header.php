@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="https://use.typekit.net/roz5znz.css">
   <!--font awesome-->
   <script src="https://use.fontawesome.com/8a29ee712e.js"></script>
+  <!--TREEO Course XMS Test-->
+  <script type="text/javascript" src="https://secure.aa.ufl.edu/DCE/DCEData/Scripts/External/DCEData-latest.min.js"></script>
+  <script type="text/javascript" src="https://secure.aa.ufl.edu/DCE/DCEData/Scripts/External/XMS/CourseInfo.js"></script>
+  
   <?php wp_head(); ?>
 </head>
 
