@@ -3,8 +3,6 @@ get_header();
 ?>
 <div class="main-content">
   <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
         <h2 class="archive-title"><?php
           if(is_category()){
             single_cat_title();
@@ -30,12 +28,10 @@ get_header();
                     <p><?php the_excerpt(); ?></p>
                     <a href="<?php the_permalink() ?>">Read More</a>
                   </div>
-                }
+              <?php  }
               }
         ?>
       </div>
-    </div>
-  </div>
 </div>
 
 <?php get_footer(); ?>
