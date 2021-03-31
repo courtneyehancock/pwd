@@ -1,11 +1,12 @@
 <?php get_header(); ?>
 
 <div class="main-content">
-  <div class="container-fluid">
-    <div class="internal-div">
-      <h1 style="color: #00529b; font-size: 2em; text-align: right; margin-right: 2em;">OPWD INSIDER</h1>
-
-      <hr />
+  <div class="hero-image" style="background-color:#001b3d; background-image: linear-gradient(to bottom, rgba(0, 27, 61, 1), rgba(245, 246, 252, 0.52)), url('https://pwd.aa.ufl.edu/wp-content/uploads/2021/03/0I1A5562-scaled.jpg'); height:300px; background-position: 50% 25%; background-size:cover;">
+  <div class="container internal-div">
+  <h1 class="hero-text" style="margin-top:80px;">OPWD INSIDER</h1>
+  <div class="block"></div>
+  </div>
+  </div>
       <div class="container d-flex p-4 justify-content-center align-content-center align-items-end">
     <h2 class="pr-3">Looking for something specific?</h2><form role="search" method="get" id="searchform" class="searchform" action="https://pwd.aa.ufl.edu/">
 				<div>
@@ -15,8 +16,7 @@
 				</div>
 			</form>
       </div>
-    </div>
-  </div>
+
   <div class="container-fluid">
     <div class="row justify-content-center">
     <?php
