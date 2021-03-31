@@ -208,33 +208,16 @@ header {
 		box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
 }
 
-.header-text {
-  line-height: .2;
-  /*padding-left:1em;*/
-  padding-top:2.3em;
-}
-.head-text{
-  color:#00529b;
-  /*font-family: 'GentonaLight',sans-serif !important;*/
-	font-family: 'PlayfairDisplay-Regular', serif !important;
-	font-style: normal;
-	font-weight: 600;
-	letter-spacing: .5px;
-  /*font-style: italic;*/
-	font-size: 16px;
-	position:absolute;
-	left: 130px;
-}
+
 
 img.uf-logo {
-	width: 74px;
+	width: 200px;
 /*	margin-top: 2%;*/
   /*margin-left: -25%;*/
 	/*height:60px;*/
   position: absolute;
   left:0;
   padding:15px;
-  background-color:#ff590e;
 	/*background-image: linear-gradient(#00529b, #101c3d);*/
 }
 
@@ -470,7 +453,7 @@ footer img {
 
 @media (min-width:770px){
   img.uf-logo {
-  	width: 96px;
+  	width: 300px;
   /*	margin-top: 2%;*/
     /*margin-left: -25%;*/
   /*	max-height:75px;*/
@@ -521,51 +504,7 @@ footer img {
 	}
 }
 
-@media (min-width: 1270px) {
-  img.uf-logo {
-  	/*max-width: 150px;*/
-  /*	margin-top: 2%;*/
-    /*margin-left: -4.5%;*/
-  /*	max-height:125px;*/
-  /*  padding:30px;*/
-    top:0;
-    margin-left:0;
-  }
-/*  .header-text {
-    padding-top: 1.5em;
-    padding-left: 4em;
-  }*/
-}
 
-@media (min-width: 1350px) {
-	.head-text {
-		font-size:18px;
-	}
-}
-
-@media (min-width: 1420px) {
-	.head-text {
-		font-size:19px;
-	}
-}
-
-@media (min-width: 1500px) {
-	.head-text {
-		font-size:20px;
-	}
-}
-
-@media (min-width: 1600px) {
-	.head-text {
-		font-size:22px;
-	}
-}
-
-@media (min-width: 1725px) {
-	.head-text {
-		font-size:23px;
-	}
-}
 
 @media (min-width:2000px) {
 	footer {
@@ -576,12 +515,6 @@ footer img {
 	}
 }
 
-
-@media only screen and (max-width: 1257px) {
-  .header-text {
-    display:none;
-  }
-}
 
 
 @media only screen and (max-width: 999px) {
