@@ -7,8 +7,7 @@
   <!--Classica Web Font-->
   <link rel="stylesheet" href="https://use.typekit.net/roz5znz.css">
   <!--font awesome-->
-  <script src="https://kit.fontawesome.com/45fdff44f1.js" crossorigin="anonymous"></script>
-
+  <script src="https://use.fontawesome.com/8a29ee712e.js"></script>
   <?php wp_head(); ?>
 </head>
 
@@ -30,12 +29,12 @@
           ?>
         </div>
 
-        <div>
-          <!--Navigation-->
-          <a href="<?php echo home_url('/'); ?>"><div class="header-text">
-            <p class="head-text">Office of Professional and Workforce Development</p>
+      <!--  <div>
+        <!--><!--Navigation-->
+          <!--<a href="<?php echo home_url('/'); ?>"><div class="header-text">
+            <p class="head-text"><?php bloginfo('description'); ?></p>
           </div></a>
-        </div>
+        </div>-->
       </div>
 
       <div class="col-md-7" id="site-nav">
