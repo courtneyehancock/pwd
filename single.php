@@ -7,7 +7,7 @@
 <div class="block"></div>
 </div>
 </div>
-  <div class="container">
+  <div class="container mt-5">
   <?php
     if(have_posts()){
       while(have_posts()){
