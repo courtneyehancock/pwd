@@ -357,9 +357,10 @@ ul.post-categories li {
 /* -- FOOTER -- */
 
 footer {
-	/*background-image: url(https://ufcwde.com/wp-content/uploads/2020/02/prism.png);*/
+	background-image: url('https://pwd.aa.ufl.edu/wp-content/uploads/2021/05/Test-footer-different.png');
 	background-color: #00285e;
 	padding: 3% 0 3% 0;
+	background-size:cover;
 /*	position:fixed;
 	bottom:0;
 	left:0;
@@ -476,10 +477,10 @@ footer img {
 
 @media (min-width: 992px) {
 	footer {
-		height:400px;
+		height:500px;
 	}
 	body{
-		padding-bottom:400px;
+		padding-bottom:500px;
 	}
 }
 @media (min-width: 1001px) {
@@ -504,16 +505,6 @@ footer img {
 	}
 }
 
-
-
-@media (min-width:2000px) {
-	footer {
-		height:420px;
-	}
-	body{
-		padding-bottom:420px;
-	}
-}
 
 
 
