@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="main-content">
-  <div class="internal-hero-image" style="background-color:#001b3d; background-image: linear-gradient(to bottom, rgba(2, 40, 93, 1), rgba(245, 246, 252, 0.52)), url('https://pwd.aa.ufl.edu/wp-content/uploads/2021/03/0I1A5562-scaled.jpg'); height:300px; background-position: 50% 25%; background-size:cover;">
+  <div class="internal-hero-image" style="background-color:#001b3d; background-image: linear-gradient(to bottom, rgba(2, 40, 93, 1), rgba(245, 246, 252, 0.52)), url('https://pwd.aa.ufl.edu/wp-content/uploads/2021/03/0I1A5562-scaled.jpg'); ">
   <div class="container internal-div">
   <h1 class="hero-text">OPWD INSIDER</h1>
   <div class="block"></div>
