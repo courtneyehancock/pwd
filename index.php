@@ -17,7 +17,7 @@
 			</form>
       </div>
 
-  <div class="container-fluid">
+  <div class="container">
     <div class="row justify-content-center">
     <?php
       if(have_posts()){
