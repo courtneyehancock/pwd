@@ -16,6 +16,9 @@
           <?php the_post_thumbnail(); ?>
         </div>
         <h2 class="post-title mt-3"><?php the_title(); ?></h2>
+        <?php
+          echo get_avatar( get_the_author_email(), '60' );
+        ?>
         <p class="written-by"><?php echo "This post is written by: " . get_the_author(); ?></p>
         <p class="published"><?php echo "| Published: " . get_the_date(); ?></p>
         <?php the_content(); ?>
