@@ -14,7 +14,7 @@
         the_post(); ?>
 
         <div class="row">
-          <div class-"col-md-3 p-4" style="background-color:#f4f4f4;">
+          <div class="col-md-3 p-4" style="background-color:#f4f4f4;">
             <?php
               echo get_avatar( get_the_author_email(), '60' );
             ?>
