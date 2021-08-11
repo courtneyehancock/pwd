@@ -326,9 +326,7 @@ h2.archive-title {
 
 p.category-label,
 .post-categories {
-	/*display: inline-block;*/
-	margin:0;
-	padding: 0 10px;
+	display: inline-block;
 }
 
 ul.post-categories {
@@ -361,6 +359,7 @@ img {
 	/*display: inline-block;*/
 	margin: 0;
 	padding: 0 10px;
+	text-align:center;
 }
 
 ul.post-categories li {
