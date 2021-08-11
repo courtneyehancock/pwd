@@ -122,7 +122,7 @@
   $author_details .= '<p class="author_details">' . get_avatar( get_the_author_meta('user_email') , 90 ) . nl2br( $user_description ). '</p>';
 
   $author_details .= '<p class="author_links"><a href="'. $user_posts .'">View all posts by ' . $display_name . '</a>';
-    
+
   // Check if author has a website in their profile
   if ( ! empty( $user_website ) ) {
 
@@ -135,16 +135,17 @@
   }
 
   // Pass all this info to post content
-  $content = $content . '<footer class="author_bio_section" >' . $author_details . '</footer>';
+  $content = $content . '<body class="author_bio_section" >' . $author_details . '</body>';
   }
   return $content;
   }
 
-// Add our function to the post content filter
-add_action( 'the_content', 'wpb_author_info_box' );
+  // Add our function to the post content filter
+  add_action( 'the_content', 'wpb_author_info_box' );
 
-// Allow HTML in author bio section
-remove_filter('pre_user_description', 'wp_filter_kses');
+  // Allow HTML in author bio section
+  remove_filter('pre_user_description', 'wp_filter_kses');
+
   //Custom Menus
   function custom_menus(){
     register_nav_menus(array(
