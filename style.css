@@ -338,9 +338,7 @@ ul.post-categories {
 }
 
 .post-title {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	border-bottom: 1px solid #ff590e;
+	padding: 10px; 
 }
 
 .post-info {
