@@ -13,17 +13,23 @@
       while(have_posts()){
         the_post(); ?>
 
-        <div class="post-feature">
-          <?php the_post_thumbnail(); ?>
+        <div class="row">
+          <div class-"col-md-3 p-4" style="background-color:#f4f4f4;">
+            <?php
+              echo get_avatar( get_the_author_email(), '60' );
+            ?>
+            <p class="written-by mt-3"><?php echo "Written by: " . get_the_author(); ?></p>
+            <p class="published"><?php echo "Published: " . get_the_date(); ?></p>
+          </div>
+          <div class="col-md-9 p-4">
+            <div class="post-feature">
+              <?php the_post_thumbnail(); ?>
+            </div>
+            <h1 class="post-title mt-3"><?php the_title(); ?></h1>
+            <div class="block"></div>
+            <?php the_content(); ?>
+          </div>
         </div>
-        <h2 class="post-title mt-3"><?php the_title(); ?></h2>
-
-        <?php
-          echo get_avatar( get_the_author_email(), '60' );
-        ?>
-        <p class="written-by"><?php echo "Written by: " . get_the_author(); ?></p>
-        <p class="published"><?php echo "Published: " . get_the_date(); ?></p>
-        <?php the_content(); ?>
 
       </div>
         <?php
