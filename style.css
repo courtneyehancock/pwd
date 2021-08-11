@@ -303,11 +303,11 @@ img.img-fluid.headshots {
 /* -- BLOG -- */
 
 img.avatar.avatar-60.photo {
-    width: 100px;
-    border-radius: 50px;
-		box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
-		margin: 0 auto;
-    display: block;
+    width: 100px !important;
+    border-radius: 50px !important;
+		box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+		margin: 0 auto !important;
+    display: block !important;
 }
 
 .col-lg-3.posts {
