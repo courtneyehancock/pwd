@@ -347,7 +347,8 @@ ul.post-categories {
 
 img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
     width: 100%;
-    height: auto;
+    height: 300px;
+		object-fit: cover !important;
 }
 
 img {
