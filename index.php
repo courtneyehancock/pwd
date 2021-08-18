@@ -7,7 +7,7 @@
   <div class="block"></div>
   </div>
   </div>
-      <div class="container d-flex p-5 justify-content-center align-content-center align-items-end">
+      <div class="container d-flex p-5 justify-content-center align-content-center align-items-center">
     <h2 class="pr-3">Looking for something specific?</h2><form role="search" method="get" id="searchform" class="searchform" action="https://pwd.aa.ufl.edu/">
 				<div>
 					<label class="screen-reader-text" for="s">Search for:</label>
@@ -18,13 +18,13 @@
       </div>
 
   <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center align-items-start">
     <?php
       if(have_posts()){
         while(have_posts()){
           the_post();?>
 
-          <div class="col-lg-3 posts">
+          <div class="col-lg-3 posts p-3">
             <?php the_post_thumbnail('medium'); ?>
             <h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             <?php the_excerpt(); ?>
