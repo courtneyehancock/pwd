@@ -7,8 +7,8 @@ get_header();
   <h1 class="hero-text">OPWD INSIDER</h1>
   </div>
   </div>
-  <div class="container mt-5 mb-5">
-        <h1 class="archive-title">Category: <?php
+  <div class="container mt-5 mb-5 pb-5">
+        <h1 class="archive-title hero-text text-center" style="color:#00529b !important;">Category: <span style="border-bottom:2px solid #ff590e;"><?php
           if(is_category()){
             single_cat_title();
           }elseif(is_tag()){
@@ -22,7 +22,7 @@ get_header();
           }else{
             echo "Archives";
           }
-         ?>
+         ?></span>
        </h1>
         <div class="row justify-content-center align-items-start">
 
