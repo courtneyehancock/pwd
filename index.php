@@ -22,7 +22,7 @@
       if(have_posts()){
         while(have_posts()){
           the_post();?>
-          <div class="col-xxl-2 m-2">
+          <div class="col-xxl-2 m-3">
           <div class="card shadow">
             <img class="card-img-top" <?php the_post_thumbnail('medium'); ?><br>
           <img class="card-img-featured" <?php
