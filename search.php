@@ -33,8 +33,8 @@ get_header();
                           <?php  }
                           }
               }else{?>
-                <h1 class="text-center" style="text-transform:uppercase;">Nothing was found</h1>
-                <p class="text-center">Try another search term.</p>
+                <h1 class="text-center hero-text" style="text-transform:uppercase; color:#00529b;">Nothing was found</h1>
+                <p class="text-center mb-3">Try another search term.</p>
                 <div class="text-center"><?php
                 get_search_form();
               }
