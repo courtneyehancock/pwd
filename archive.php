@@ -7,8 +7,8 @@ get_header();
   <h1 class="hero-text">OPWD INSIDER</h1>
   </div>
   </div>
-  <div class="container">
-        <h2 class="archive-title">Category: <?php
+  <div class="container mt-5 mb-5">
+        <h1 class="archive-title">Category: <?php
           if(is_category()){
             single_cat_title();
           }elseif(is_tag()){
@@ -23,7 +23,7 @@ get_header();
             echo "Archives";
           }
          ?>
-        </h2>
+       </h1>
         <div class="row justify-content-center align-items-start">
 
         <?php if(have_posts()){
