@@ -2,6 +2,11 @@
 get_header();
 ?>
 <div class="main-content">
+  <div class="internal-hero-image" style="background-color:#001b3d; background-image: linear-gradient(120deg, rgba(2, 40, 93, 1), rgba(245, 246, 252, 0.52)), url('https://pwd.aa.ufl.edu/wp-content/uploads/2021/03/0I1A5562-scaled.jpg');">
+  <div class="container internal-div">
+  <h1 class="hero-text">OPWD INSIDER</h1>
+  </div>
+  </div>
   <div class="container">
         <h2 class="archive-title">Category: <?php
           if(is_category()){
