@@ -35,7 +35,7 @@
           <div class="block"></div>
           <div class="post-info">
             <p class="font-italic">Published: <?php echo get_the_date(); ?></p>
-          <!--  <p class="category-label font-italic">Category: <?php the_category(); ?></p>-->
+        <p class="category-label font-italic">Category: <?php the_category(); ?></p>
           </div>
           <p></p></div>
           <p>    <a href="<?php the_permalink(); ?>" class="btn btn-primary card-btn">READ POST</a>
