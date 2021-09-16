@@ -13,7 +13,7 @@
         the_post(); ?>
 
         <div class="row d-flex align-items-start">
-          <div class="col-md-9 pr-4 pl-4 pb-4 shadow">
+          <div class="col-md-9 pr-4 pl-4 pb-4 shadow" style="border-radius:15px;">
             <div class="post-feature">
               <?php the_post_thumbnail(); ?>
             </div>
@@ -22,14 +22,14 @@
             <?php the_content(); ?>
           </div>
           <div class="col-md-3">
-            <div class="p-4" style="background-color:#f4f4f4;">
+            <div class="p-4" style="background-color:#f4f4f4; border-radius:15px;">
             <?php
               echo get_avatar( get_the_author_email(), '60' );
             ?>
             <p class="written-by mt-3"><?php echo "Written by: <br>" . get_the_author(); ?></p>
             <p class="published"><?php echo "Published: <br>" . get_the_date(); ?></p>
           </div>
-          <div class="p-4 mt-3" style="background-color:#f4f4f4;">
+          <div class="p-4 mt-3" style="background-color:#f4f4f4; border-radius:15px;">
             <p><em>Keep up with all things OPWD by reading our bi-monthly office updates.</em></p>
 
             <p><em>The Office of Professional and Workforce Development (OPWD) supports the Office of Teaching and Technology and the University of Florida in offering non-credit education for adult learners across multiple modalities, e.g. online, face-to-face, and conferences.</em></p>
