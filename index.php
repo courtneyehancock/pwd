@@ -22,8 +22,26 @@
       if(have_posts()){
         while(have_posts()){
           the_post();?>
-
-          <div class="col-lg-3 posts p-3">
+          <div class="col-xxl-2 m-2">
+          <div class="card shadow">
+            <img class="card-img-top" <?php the_post_thumbnail('medium'); ?>/><br>
+          <img class="card-img-featured" <?php
+            echo get_avatar( get_the_author_email(), '60' );
+          ?> /><br>
+          <span class="badge badge-pill badge-success cert"><?php the_category(); ?></span><p></p>
+          <div class="card-body">
+          <h2 class="post-title card-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+</h2>
+          <div class="block"></div>
+          <div class="post-info">
+            <p class="font-italic">Published: <?php echo get_the_date(); ?></p>
+          <!--  <p class="category-label font-italic">Category: <?php the_category(); ?></p>-->
+          </div>
+          <p></p></div>
+          <p>    <a href="<?php the_permalink(); ?>" class="btn btn-primary card-btn">READ POST</a>
+          </p></div>
+          </div>
+      <!--  <div class="col-lg-3 posts p-3">
             <?php the_post_thumbnail('medium'); ?>
             <h2 class="post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
             <?php the_excerpt(); ?>
@@ -33,10 +51,10 @@
               $archive_day = get_the_time('d');
             ?>
             <div class="post-info">
-              <p class="font-italic">Published: <?php echo get_the_date(); ?></p>
-            <!--  <p class="category-label font-italic">Category: <?php the_category(); ?></p>-->
+              <p class="font-italic">Published: <?php echo get_the_date(); ?></p>-->
+            <!--  <p class="category-label font-italic">Category: <?php the_category(); ?></p>
             </div>
-          </div>
+          </div>-->
     <?php } //ends while loop
       }//end if statement
       ?>
