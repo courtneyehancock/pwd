@@ -28,14 +28,14 @@
           <img class="card-img-featured" <?php
             echo get_avatar( get_the_author_email(), '60' );
           ?> <br>
-          <!--<span class="badge badge-pill badge-success cert"><?php the_category(); ?></span>-->
+          <span class="badge badge-pill badge-success cert"><?php the_category(); ?></span>
           <div class="card-body">
           <h2 class="post-title card-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 </h2>
           <div class="block"></div>
           <div class="post-info">
             <p class="font-italic">Published: <?php echo get_the_date(); ?></p>
-        <p class="category-label font-italic">Category: <?php the_category(); ?></p>
+        <!--<p class="category-label font-italic">Category: <?php the_category(); ?></p>-->
           </div>
           <p></p></div>
           <p>    <a href="<?php the_permalink(); ?>" class="btn btn-primary card-btn">READ POST</a>
