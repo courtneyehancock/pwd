@@ -24,11 +24,11 @@
           the_post();?>
           <div class="col-xxl-2 m-2">
           <div class="card shadow">
-            <img class="card-img-top" <?php the_post_thumbnail('medium'); ?>/><br>
+            <img class="card-img-top" <?php the_post_thumbnail('medium'); ?>><br>
           <img class="card-img-featured" <?php
             echo get_avatar( get_the_author_email(), '60' );
-          ?> /><br>
-          <span class="badge badge-pill badge-success cert"><?php the_category(); ?></span><p></p>
+          ?> ><br>
+          <!--<span class="badge badge-pill badge-success cert"><?php the_category(); ?></span>-->
           <div class="card-body">
           <h2 class="post-title card-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 </h2>
