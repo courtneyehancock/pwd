@@ -26,8 +26,8 @@
             <?php
               echo get_avatar( get_the_author_email(), '60' );
             ?>
-            <p class="written-by mt-3"><?php echo "Written by: " . get_the_author(); ?></p>
-            <p class="published"><?php echo "Published: " . get_the_date(); ?></p>
+            <p class="written-by mt-3"><?php echo "Written by: <br>" . get_the_author(); ?></p>
+            <p class="published"><?php echo "Published: <br>" . get_the_date(); ?></p>
           </div>
           <div class="p-4 mt-3" style="background-color:#f4f4f4;">
             <p><em>Keep up with all things OPWD by reading our bi-monthly office updates.</em></p>
