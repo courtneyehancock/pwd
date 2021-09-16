@@ -3,7 +3,7 @@ get_header();
 ?>
 <div class="main-content">
   <div class="container">
-        <h2 class="archive-title"><?php
+        <h2 class="archive-title">Category: <?php
           if(is_category()){
             single_cat_title();
           }elseif(is_tag()){
