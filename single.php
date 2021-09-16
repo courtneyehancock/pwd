@@ -13,7 +13,7 @@
         the_post(); ?>
 
         <div class="row d-flex align-items-start">
-          <div class="col-md-9 pr-4 pl-4 pb-4 shadow" style="border-radius:15px;">
+          <div class="col-lg-9 pr-4 pl-4 pb-4 shadow" style="border-radius:15px;">
             <div class="post-feature">
               <?php the_post_thumbnail(); ?>
             </div>
@@ -21,7 +21,7 @@
             <div class="block"></div>
             <?php the_content(); ?>
           </div>
-          <div class="col-md-3">
+          <div class="col-lg-3">
             <div class="p-4" style="background-color:#f4f4f4; border-radius:15px;">
             <?php
               echo get_avatar( get_the_author_email(), '60' );
