@@ -33,12 +33,12 @@ get_header();
                           <?php  }
                           }
               }else{?>
-                <h1>Nothing was found</h1>
-                <p>Try another search term.</p>
-                <?php
+                <h1 class="text-center" style="text-transform:uppercase;">Nothing was found</h1>
+                <p class="text-center">Try another search term.</p>
+                <div class="text-center"><?php
                 get_search_form();
               }
-        ?>
+        ?></div>
     </div>
   </div>
 </div>
