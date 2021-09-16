@@ -312,9 +312,8 @@ img.avatar.avatar-60.photo {
     display: block !important;
 }
 
-.col-lg-3.posts {
-	box-shadow: 1px 5px 8px rgba(0,0,0,.1);
-	margin: .5%;
+ul.post-categories a {
+    color: #fff;
 }
 
 .posts p {
