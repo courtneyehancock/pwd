@@ -36,7 +36,7 @@
 
             <p><em>Is there a topic under our umbrella that you would like to learn or see more about? Email Courtney Hancock at <a href="mailto:cehancock@mail.ufl.edu">cehancock@mail.ufl.edu</a> with your ideas.</em></p>
           </div>
-          </div?
+        </div>
         </div>
 
       </div>
