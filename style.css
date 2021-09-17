@@ -172,13 +172,6 @@ a.aa:hover {
   color: #ff590e;
 }
 
-.p-font {
-	font-family: 'PlayfairDisplay-Regular' !important;
-	font-style:italic;
-	font-size: 14px;
-	margin:0;
-}
-
 .shadow {
 	box-shadow: 1px 5px 8px rgba(0,0,0, .1)
 }
