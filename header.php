@@ -31,16 +31,24 @@
           }
           ?>
         </div>
-
-      <!--  <div>
-        <!--><!--Navigation-->
-          <!--<a href="<?php echo home_url('/'); ?>"><div class="header-text">
-            <p class="head-text"><?php bloginfo('description'); ?></p>
-          </div></a>
-        </div>-->
       </div>
 
-      <div class="col-md-9" id="site-nav">
+      <div class="col-md-9 d-flex align-items-center justify-content-end search-nav">
+        <div class="col-md-3 text-right">
+          <!--Middle Right Footer-->
+          <?php dynamic_sidebar('head-social-widget'); ?>
+        </div>
+        <div class="d-flex align-items-center"><i class="fas fa-search mr-2" style="color:#ff590e;"></i>
+        <form role="search" method="get" id="searchform" class="searchform" action="https://pwd.aa.ufl.edu/">
+    				<div>
+    					<label class="screen-reader-text" for="s">Search for:</label>
+    					<input type="text" value="" name="s" id="s">
+    					<input type="submit" id="searchsubmit" value="Search">
+    				</div>
+    			</form>
+      </div>
+    </div>
+      <div class="col-md-12" id="site-nav">
         <!--Navigation-->
         <?php wp_nav_menu(array(
           'theme_location' => 'header-menu',
