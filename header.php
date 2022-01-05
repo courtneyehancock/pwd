@@ -34,7 +34,7 @@
       </div>
 
       <div class="col-md-9 d-flex align-items-center justify-content-end search-nav">
-        <div class="col-md-3 text-right">
+        <div class="col-md-4 text-right">
           <!--Middle Right Footer-->
           <?php dynamic_sidebar('head-social-widget'); ?>
         </div>
