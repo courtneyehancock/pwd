@@ -211,7 +211,9 @@ header {
 	width: 100%;
   background-color:#fff;
 }
-
+div#site-nav {
+    background-color: #00285d;
+	}
 img.uf-logo {
 	width: 250px;
   position: absolute;
@@ -521,6 +523,7 @@ footer img {
 		width:400px !important;
 	}
 }
+
 @media only screen and (max-width: 999px) {
 	footer {
 		text-align: center;
@@ -528,4 +531,9 @@ footer img {
 	.main-nav {
 		position: relative;
 	}
+}
+@media (max-width:850px) {
+	.search-nav {
+    display: none !important;
+}
 }
