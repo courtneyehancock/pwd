@@ -134,7 +134,7 @@ p,
 li {
   font-family: 'GentonaLight', sans-serif !important;
 	color: #212121;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -173,7 +173,7 @@ a.aa:hover {
 }
 
 .shadow {
-	box-shadow: 1px 5px 8px rgba(0,0,0, .1)
+	box-shadow: 1px 5px 8px rgba(0,0,0, .1) !important;
 }
 /*body{
   padding-bottom:500px;
@@ -197,31 +197,29 @@ header {
 }
 
 .row.main-nav {
-    margin-left: 0;
-    margin-right: 0;
 		top:0;
 		box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+	background-color: #02285d !important;
+	align-content: center;
+   margin: 0;
+	display:flex;
+	align-items:center;
 }
-
-
-
-img.uf-logo {
-	width: 200px;
-/*	margin-top: 2%;*/
-  /*margin-left: -25%;*/
-	/*height:60px;*/
-  position: absolute;
-  left:0;
-  padding:15px;
-	/*background-image: linear-gradient(#00529b, #101c3d);*/
-}
-
 .main-nav {
 	position: fixed;
 	z-index: 2;
 	width: 100%;
   background-color:#fff;
 }
+
+img.uf-logo {
+	width: 250px;
+  position: absolute;
+  left:0;
+	border-right: 1px solid #001b3d;
+  padding:15px;
+}
+
 
 #mega-menu-wrap-header-menu #mega-menu-header-menu > li.mega-menu-item > a.mega-menu-link {
     letter-spacing: 1.5px;
@@ -244,10 +242,8 @@ img.uf-logo {
 h1.home-head{
 	color:#fff;
 	padding: 1% 5%;
-	/*text-shadow: 3px 4px 0px #bc581a;*/
 	border: 2px solid #a8dcd9;
-	/*position: absolute;
-	bottom: 138px;*/
+
 	text-align:center;
 }
 
@@ -449,7 +445,19 @@ footer img {
     left: 470px;
 	}
 }
-
+@media (min-width: 650px) {
+	img.uf-logo {
+		width: 300px !important;
+	}
+}
+@media (min-width:768px) {
+	img.uf-logo {
+		position: relative !important;
+	}
+		.about-img{
+		margin-bottom:-90px;
+	}
+}
 @media (min-width: 767px) {
 	.page-title {
 		font-size: 4em;
@@ -457,12 +465,6 @@ footer img {
 }
 
 @media (min-width:770px){
-  img.uf-logo {
-  	width: 300px;
-  /*	margin-top: 2%;*/
-    /*margin-left: -25%;*/
-  /*	max-height:75px;*/
-	}
 	footer {
 		position:fixed;
 		bottom:0;
@@ -474,7 +476,7 @@ footer img {
 	.final-footer {
 		bottom:0;
 	}
-	body{
+	body {
 	  padding-bottom:900px;
 	}
 }
@@ -483,7 +485,7 @@ footer img {
 	footer {
 		height:500px;
 	}
-	body{
+	body {
 		padding-bottom:500px;
 	}
 }
@@ -509,9 +511,16 @@ footer img {
 	}
 }
 
-
-
-
+@media (min-width: 1250px) {
+	img.uf-logo {
+		width:350px !important;
+	}
+}
+@media (min-width:1500px) {
+	img.uf-logo {
+		width:400px !important;
+	}
+}
 @media only screen and (max-width: 999px) {
 	footer {
 		text-align: center;
