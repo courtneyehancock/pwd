@@ -38,13 +38,7 @@
           </div>
         </div>
         </div>
-        <div class="pagination-single">
-          <?php next_post_link('%link', '< Previous Post'); ?>
-        </div>
-
-        <div class="pagination-single">
-          <?php previous_post_link('%link', 'Next Post >'); ?>
-        </div>
+  
       </div>
 
 
