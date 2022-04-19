@@ -13,7 +13,7 @@
         the_post(); ?>
 
         <div class="row d-flex align-items-start">
-          <div class="col-lg-9 pr-4 pl-4 pb-4 shadow" style="border-radius:15px;">
+          <div class="col-lg-9 pr-4 pl-4 pb-4 mb-5 shadow" style="border-radius:15px;">
             <div class="post-feature">
               <?php the_post_thumbnail(); ?>
             </div>
@@ -38,16 +38,16 @@
           </div>
         </div>
         </div>
+        <div class="pagination-single">
+          <?php next_post_link('%link', '< Previous Post'); ?>
+        </div>
 
+        <div class="pagination-single">
+          <?php previous_post_link('%link', 'Next Post >'); ?>
+        </div>
       </div>
 
-      <div class="pagination-single">
-        <?php next_post_link('%link', '<< Previous Post'); ?>
-      </div>
 
-      <div class="pagination-single">
-        <?php previous_post_link('%link', 'Next Post >>'); ?>
-      </div>
         <?php
       }
     }
