@@ -34,11 +34,11 @@
 
             <p><em>The Office of Professional and Workforce Development (OPWD) supports the Office of Teaching and Technology and the University of Florida in offering non-credit education for adult learners across multiple modalities.</em></p>
 
-            <p><em>Is there a topic under our umbrella that you would like to learn or see more about? Email Courtney Hancock at <a href="mailto:cehancock@mail.ufl.edu">cehancock@mail.ufl.edu</a> with your ideas.</em></p>
+            <p><em>Is there a topic under our umbrella that you would like to learn or see more about? Email Courtney Glancy at <a href="mailto:courtneyglancy@ufl.edu">courtneyglancy@ufl.edu</a> with your ideas.</em></p>
           </div>
         </div>
         </div>
-  
+
       </div>
 
 
