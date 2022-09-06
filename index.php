@@ -30,8 +30,7 @@
           ?> <br>
           <span class="badge badge-pill badge-primary spec"><?php the_category(); ?></span>
           <div class="card-body">
-          <h2 class="post-title card-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-</h2>
+          <h3 class="post-title card-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
           <div class="block"></div>
           <div class="post-info">
             <p class="font-italic">Published: <?php echo get_the_date(); ?></p>
