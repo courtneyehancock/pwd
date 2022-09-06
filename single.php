@@ -17,7 +17,7 @@
             <div class="post-feature">
               <?php the_post_thumbnail(); ?>
             </div>
-            <h1 class="post-title mt-3"><?php the_title(); ?></h1>
+            <h2 class="post-title mt-3"><?php the_title(); ?></h2>
             <div class="block"></div>
             <?php the_content(); ?>
           </div>
