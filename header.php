@@ -11,6 +11,10 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-PZVDB2M');</script>
   <!-- End Google Tag Manager -->
+  <!--Facebook Meta Tag-->
+  <meta name="facebook-domain-verification" content="rtkjhpxmfz6ny9m5emxv1v6j2up7jk" />
+
+
   <!--Classica Web Font-->
   <link rel="stylesheet" href="https://use.typekit.net/roz5znz.css">
   <!--font awesome-->
