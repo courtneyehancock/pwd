@@ -3,7 +3,7 @@
 <div class="main-content">
   <div class="internal-hero-image" style="background-color:#001b3d; background-image: linear-gradient(120deg, rgba(2, 40, 93, 1), rgba(245, 246, 252, 0.52)), url('https://pwd.aa.ufl.edu/wp-content/uploads/2021/03/0I1A5562-scaled.jpg');">
   <div class="container internal-div">
-  <h1 class="hero-text">OPWD INSIDER</h1>
+  <h1 class="hero-text">OPWD NEWS</h1>
   </div>
   </div>
       <div class="container d-flex p-5 justify-content-center align-content-center align-items-center">
@@ -20,6 +20,16 @@
     <div class="row justify-content-center align-items-start">
     <?php
       if(have_posts()){
+
+       global $wp_query;
+       $big = 999999999; // need an unlikely integer
+       echo paginate_links( array(
+       'base' => str_replace( $big, '%#%', esc_url( get_pagjsonenum_link( $big ) ) ),
+       'format' => '?paged=%#%',
+       'current' => max( 1, get_query_var('paged') ),
+       'total' => $wp_query->max_num_pages
+        ) );
+
         while(have_posts()){
           the_post();?>
           <div class="col-xxl-2 m-3">
