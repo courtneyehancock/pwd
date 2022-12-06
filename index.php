@@ -21,15 +21,6 @@
     <?php
       if(have_posts()){
 
-       global $wp_query;
-       $big = 999999999; // need an unlikely integer
-       echo paginate_links( array(
-       'base' => str_replace( $big, '%#%', esc_url( get_pagjsonenum_link( $big ) ) ),
-       'format' => '?paged=%#%',
-       'current' => max( 1, get_query_var('paged') ),
-       'total' => $wp_query->max_num_pages
-        ) );
-
         while(have_posts()){
           the_post();?>
           <div class="col-xxl-2 m-3">
