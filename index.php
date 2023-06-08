@@ -1,22 +1,13 @@
 <?php get_header(); ?>
 
 <div class="main-content">
-  <div class="internal-hero-image" style="background-color:#001b3d; background-image: linear-gradient(120deg, rgba(2, 40, 93, 1), rgba(245, 246, 252, 0.52)), url('https://pwd.aa.ufl.edu/wp-content/uploads/2021/03/0I1A5562-scaled.jpg');">
+  <div class="internal-hero-image" style="background-color:#001b3d; background-image: linear-gradient(360deg, #00529be3, #00285ddb, #001a3d), url('https://pwd.aa.ufl.edu/wp-content/uploads/2021/03/0I1A5562-scaled.jpg');">
   <div class="container internal-div">
-  <h1 class="hero-text">OPWD NEWS</h1>
+  <h1 class="internal-hero-text text-center">OPWD NEWS</h1>
   </div>
   </div>
-      <div class="container d-flex p-5 justify-content-center align-content-center align-items-center">
-    <h2 class="pr-3">Looking for something specific?</h2><form role="search" method="get" id="searchform" class="searchform" action="https://pwd.aa.ufl.edu/">
-				<div>
-					<label class="screen-reader-text" for="s">Search for:</label>
-					<input type="text" value="" name="s" id="s">
-					<input type="submit" id="searchsubmit" value="Search">
-				</div>
-			</form>
-      </div>
 
-  <div class="container pb-5">
+  <div class="container pt-5 pb-5">
     <div class="row justify-content-center align-items-start">
     <?php
       if(have_posts()){

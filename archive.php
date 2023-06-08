@@ -2,9 +2,9 @@
 get_header();
 ?>
 <div class="main-content">
-  <div class="internal-hero-image" style="background-color:#001b3d; background-image: linear-gradient(120deg, rgba(2, 40, 93, 1), rgba(245, 246, 252, 0.52)), url('https://pwd.aa.ufl.edu/wp-content/uploads/2021/03/0I1A5562-scaled.jpg');">
+  <div class="internal-hero-image" style="background-color:#001b3d; background-image: linear-gradient(360deg, #00529be3, #00285ddb, #001a3d), url('https://pwd.aa.ufl.edu/wp-content/uploads/2021/03/0I1A5562-scaled.jpg');">
   <div class="container internal-div">
-  <h1 class="hero-text">OPWD INSIDER</h1>
+  <h1 class="internal-hero-text text-center">OPWD NEWS</h1>
   </div>
   </div>
   <div class="container mt-5 mb-5 pb-5">
@@ -37,8 +37,8 @@ get_header();
                   ?> <br>
                   <span class="badge badge-pill badge-primary spec"><?php the_category(); ?></span>
                   <div class="card-body">
-                  <h2 class="post-title card-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-        </h2>
+                  <h2 class="post-title card-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+        </h3>
                   <div class="block"></div>
                   <div class="post-info">
                     <p class="font-italic">Published: <?php echo get_the_date(); ?></p>
