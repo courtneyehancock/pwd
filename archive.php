@@ -4,7 +4,7 @@ get_header();
 <div class="main-content">
   <div class="internal-hero-image" style="background-color:#001b3d; background-image: linear-gradient(360deg, #00529be3, #00285ddb, #001a3d), url('https://pwd.aa.ufl.edu/wp-content/uploads/2021/03/0I1A5562-scaled.jpg');">
   <div class="container internal-div">
-  <h1 class="internal-hero-text text-center archive-title">Category:<?php
+  <h1 class="internal-hero-text text-center archive-title">Category: <?php
       if(is_category()){
         single_cat_title();
       }elseif(is_tag()){
