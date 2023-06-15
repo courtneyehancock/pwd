@@ -521,6 +521,8 @@ footer img {
 	}
 	.final-footer {
 		bottom:0;
+		background-color:transparent;
+		border-top: 1px solid #001b3d;
 	}
 	body {
 	  padding-bottom:900px;

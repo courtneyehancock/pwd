@@ -71,6 +71,17 @@
       'after_title'   => '</h3>'
     ));
 
+    //Footer: Middle Right Widget
+    register_sidebar(array(
+      'name'          => ('Middle Right Footer'),
+      'id'            => 'middle-right-footer',
+      'description'   => 'Middle right widget area in the footer',
+      'before_widget' => '<div class="widget-footer widget-right">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
     //Footer: Right Widget
     register_sidebar(array(
       'name'          => ('Right Footer'),
