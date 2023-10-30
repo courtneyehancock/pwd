@@ -37,7 +37,7 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
-    
+
     //Home: Banner Widget
     register_sidebar(array(
       'name'          => ('Banner Home'),
@@ -106,6 +106,12 @@
   }
 
   add_action('widgets_init', 'blank_widgets_init');
+
+  //Edit Excerpt Length
+  function custom_excerpt_length( $length ) {
+    return 20;
+  }
+  add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
   //Custom Menus
   function custom_menus(){
