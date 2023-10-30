@@ -18,7 +18,7 @@
           the_post();?>
           <div class="col-xxl-2 m-3">
           <div class="card shadow">
-            <img class="card-img-top" <?php the_post_thumbnail('medium'); ?><br>
+            <img class="card-img-top" <?php the_post_thumbnail('medium'); ?>/>
             <div class="post-info">
               <p><?php echo get_the_author();?><p>
               <p><?php echo get_the_date(); ?></p>
