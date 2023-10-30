@@ -27,6 +27,17 @@
   //Widget Areas
   function blank_widgets_init() {
 
+    //Home: Recent Posts Widget
+    register_sidebar(array(
+      'name'          => ('Recent Posts'),
+      'id'            => 'recent-posts',
+      'description'   => 'Recent posts widget area on home page',
+      'before_widget' => '<div class="widget-recent widget-top">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    
     //Home: Banner Widget
     register_sidebar(array(
       'name'          => ('Banner Home'),
