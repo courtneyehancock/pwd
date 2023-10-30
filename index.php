@@ -38,6 +38,7 @@
       }//end if statement
       ?>
     </div>
+  </div>
     <div class="col-lg-3 p-3">
       <!--Recent Posts-->
       <?php dynamic_sidebar('recent-posts'); ?>
