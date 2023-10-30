@@ -3,11 +3,13 @@
 <div class="main-content">
   <div class="internal-hero-image" style="background-color:#001b3d; background-image: linear-gradient(360deg, #00529be3, #00285ddb, #001a3d), url('https://pwd.aa.ufl.edu/wp-content/uploads/2021/03/0I1A5562-scaled.jpg');">
   <div class="container internal-div">
-  <h1 class="internal-hero-text text-center">OPWD NEWS</h1>
+  <h1 class="internal-hero-text text-center">OPWD INSIDER</h1>
   </div>
   </div>
 
   <div class="container pt-5 pb-5">
+    <div class="row">
+      <div class="col-lg-9">
     <div class="row justify-content-center align-items-start">
     <?php
       if(have_posts()){
@@ -36,6 +38,12 @@
       }//end if statement
       ?>
     </div>
+    <div class="col-lg-3 p-3">
+      <!--Recent Posts-->
+      <?php dynamic_sidebar('recent-posts'); ?>
+
+    </div>
   </div>
-</div>
-<?php get_footer(); ?>
+  </div>
+  </div>
+  <?php get_footer(); ?>
