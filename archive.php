@@ -40,7 +40,7 @@ get_header();
               <p><?php echo get_the_date(); ?></p>
             </div>
 
-          <div class="card-body">
+          <div class="card-body mb-2">
           <h3 class="post-title card-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
           <span class="blog-excerpt"><?php the_excerpt(); ?></span>
           <div class="card-line"></div>
