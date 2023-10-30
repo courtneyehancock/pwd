@@ -26,9 +26,9 @@
 
           <div class="card-body">
           <h3 class="post-title card-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-          <p class="blog-excerpt"><?php the_excerpt(); ?></p>
+          <span class="blog-excerpt"><?php the_excerpt(); ?></span>
           <div class="card-line"></div>
-          <p class="blog-category"><?php the_category(); ?></p>
+          <span="blog-category pt-2"><?php the_category(); ?></span>
           </div>
         </div>
           </div>
