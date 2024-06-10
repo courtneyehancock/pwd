@@ -8,8 +8,6 @@
   </div>
 
   <div class="container pt-5 pb-5">
-    <div class="row">
-      <div class="col-lg-9">
     <div class="row justify-content-center align-items-start">
     <?php
       if(have_posts()){
@@ -37,12 +35,6 @@
   } //ends while loop
       }//end if statement
       ?>
-    </div>
-  </div>
-    <div class="col-lg-3 p-3">
-      <!--Recent Posts-->
-      <?php dynamic_sidebar('recent-posts'); ?>
-
     </div>
   </div>
   </div>
