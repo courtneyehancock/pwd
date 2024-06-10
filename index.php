@@ -16,7 +16,7 @@
 
         while(have_posts()){
           the_post();?>
-          <div class="col-xxl-2 m-3">
+          <div class="col-xl-3">
           <div class="card shadow">
             <img class="card-img-top" <?php the_post_thumbnail('medium'); ?>
             <div class="post-info">
