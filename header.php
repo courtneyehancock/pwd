@@ -49,7 +49,7 @@
           <!--Middle Right Footer-->
           <?php dynamic_sidebar('head-social-widget'); ?>
         </div>
-        <div class="d-flex align-items-center"><i class="fas fa-search mr-2" style="color:#ff590e;"></i>
+        <div class="d-flex align-items-center"><i class="fas fa-search icon-orange"></i>
         <form role="search" method="get" id="searchform" class="searchform" action="https://pwd.aa.ufl.edu/">
     				<div>
     					<label class="screen-reader-text" for="s">Search for:</label>

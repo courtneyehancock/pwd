@@ -570,11 +570,18 @@ h1.rap-title {
 
 /* -- HOME PAGE -- */
 
-/* -- DEPARTMENTS -- */
-.d-photo {
-	object-fit: cover;
-  width: 100%;
-  height: 150px;
+/* -- SUPPORT PAGE -- */
+.support-info {
+    background-color: #00285d;
+	border-radius:0 0 1.25em 1.25em;
+}
+
+.support-info p {
+	color:#fff;
+}
+
+.form-info {
+	border-radius:1.25em 1.25em 0 0;
 }
 
 /* -- CONTACT US / MEET THE TEAM -- */
@@ -799,6 +806,61 @@ position: absolute;
 ul.wp-block-categories-list.wp-block-categories {
     list-style: none;
 }
+
+/* -- FORM STYLES -- */
+/* Leadership Workshop Mailing List Form */
+iframe.leadership-wk-form {
+    border: none;
+}
+
+label.field-label {
+    font-weight: 400 !important;
+    color: #ff590e !important;
+}
+
+/* Protected Page Form */
+form.post-password-form {
+    margin-top: 150px;
+    text-align: center;
+}
+
+/* Gravity Forms */
+h2.gform_title {
+    margin: 0 0 15px;
+    font-family: 'GentonaBook' !important;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 25px;
+}
+h3.gsection_title {
+    font-family: 'GentonaBook' !important;
+    margin: 0;
+    font-size: 18px;
+}
+
+
+.gform_button {
+    border: none !important;
+    font-family: 'GentonaLight' !important;
+    color: #ffffff;
+    background-color: #ff590e;
+    box-shadow: 1px 5px 8px rgb(0 0 0 / 10%);
+    text-shadow: 1px 1px 0px RGBA(0,0,0,0.17);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 13px;
+}
+
+button::before, button::after {
+    height: auto !important;
+}
+
+.gform_ajax_spinner {
+    width: 20px !important;
+    margin: 10px !important;
+}
+
 /* -- FOOTER -- */
 
 footer {
@@ -855,6 +917,157 @@ footer img {
 	max-width: 350px !important;
 }
 
+/* -- IMG HOVER EFFECTS -- */
+h2.pwd-head2 {
+    font-family: 'Gentona', sans-serif !important;
+    color: #fff;
+    font-size: 20px;
+}
+
+figcaption p {
+    color: #fff;
+}
+
+.grid {
+	overflow: hidden;
+	margin: 0 0 7em 0;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Common style */
+.grid figure {
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	max-height: 280px;
+	background: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	opacity: 0.4;
+	object-fit: cover;
+}
+
+.grid figure figcaption {
+	padding: 0 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	overflow: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+	pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 span {
+	font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+/* Individual effects */
+/*---------------*/
+/***** Roxy *****/
+/*---------------*/
+
+figure.effect-roxy {
+	background: #00285d;
+}
+
+figure.effect-roxy img {
+	width: -webkit-calc(100% + 60px);
+	width: calc(100% + 60px);
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-50px,0,0);
+	transform: translate3d(-50px,0,0);
+}
+
+figure.effect-roxy figcaption::before {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	/*add media query for larger size*/
+	border: 1px solid #fff;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-20px,0,0);
+	transform: translate3d(-20px,0,0);
+}
+
+figure.effect-roxy figcaption {
+	text-align: left;
+}
+
+figure.effect-roxy h2 {
+	padding: 30% 0 10px 0;
+}
+
+figure.effect-roxy p {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-10px,0,0);
+	transform: translate3d(-10px,0,0);
+}
+
+figure.effect-roxy:hover img {
+	opacity: 0.2;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-roxy:hover figcaption::before,
+figure.effect-roxy:hover p {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
 /* -- MEDIA QUERIES -- */
 @media (min-width: 500px){
 	img.header-text {
@@ -884,12 +1097,26 @@ footer img {
     bottom: 95px;
     left: 470px;
 	}
+	figure.effect-roxy figcaption::before {
+		border: 1px solid #fff;
+	}
+	.grid figure figcaption {
+		overflow: visible;
+	}
 }
+
 @media (min-width: 650px) {
 	img.uf-logo {
 		width: 300px !important;
 	}
 }
+
+@media (min-width: 700px) {
+	.grid {
+		justify-content:center;
+	}
+}
+
 @media (min-width:768px) {
 	img.uf-logo {
 		position: relative !important;
@@ -931,6 +1158,27 @@ footer img {
 		padding-bottom:500px;
 	}
 }
+
+@media (min-width: 1000px) {
+	.grid figure {
+		width: 18%;
+	}
+
+	.grid figure.ai-figure {
+		width:100% !important;
+	}
+
+  	.grid .rent-treeo {
+    	width: 25%;
+  }
+
+	.grid {
+		display: inline-flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+}
+
 @media (min-width: 1001px) {
 	.page-title {
 		font-size: 6em;
