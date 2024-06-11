@@ -1004,6 +1004,51 @@ footer img {
 	max-width: 350px !important;
 }
 
+/* -- CURVED DIV STYLES -- */
+.curved-div {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.6)), url('https://pwd.aa.ufl.edu/wp-content/uploads/2022/03/AI-Swirl.png');
+  color: #FFF;
+	background-position:60% 30%;
+}
+.curved-div h1 {
+  font-size: 3rem;
+margin:0;
+text-shadow:3px 5px 5px rgb(0 0 0 / 25%);
+}
+.curved-div svg {
+  display: block;
+}
+svg.home-svg {
+    width: 110%;
+    margin-left: -50px;
+}
+.css-scroll-down {
+    display: flex;
+    flex-flow: row;
+	justify-content: center;
+}
+.scroll-down1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 2px solid #ff590e;
+    font-size: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2.course-title {
+	font-size: 1rem !important;
+}
+
+ul.mega-sub-menu img {
+		display:none !important;
+}
+
 /* -- IMG HOVER EFFECTS -- */
 h2.pwd-head2 {
     font-family: 'Gentona', sans-serif !important;
@@ -1224,7 +1269,7 @@ figure.effect-roxy:hover p {
 		margin-bottom:-90px;
 	}
 	.large-text {
-font-size:3.125em;
+font-size:3.125em !important;
 }
 }
 
