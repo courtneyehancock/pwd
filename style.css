@@ -258,6 +258,80 @@ color: #fff !important;
 		margin-right:10px;
 }
 
+/* Accordion */
+.myaccordion {
+  max-width: 1088px;
+  margin: 50px auto;
+  transition: padding .2s linear;
+}
+#accordion .card {
+    max-width: 800px !important;
+	margin: .8em;
+}
+.myaccordion .card,
+.myaccordion .card:last-child .card-header {
+  border: none;
+}
+
+.myaccordion .card, .myaccordion .card:last-child .card-header {
+    border: none;
+}
+.card {
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.myaccordion .card-header {
+  border-bottom-color: #f4f4f4;
+  background: transparent;
+}
+
+.myaccordion .fa-stack {
+  font-size: 14px;
+}
+
+.fa-inverse {
+    color: #ff590e;
+}
+
+.myaccordion .mybtn {
+  width: 100%;
+  /*font-weight: bold;*/
+  color: #ff590e;
+	font-family: 'GentonaBook';
+  padding: 5px;
+  transition: padding .2s linear;
+  border: none;
+	font-size:18px;
+  background-color:#fff;
+		text-decoration: none;
+}
+
+.myaccordion li + li {
+  margin-top: 10px;
+}
+
+button.d-flex.align-items-center.justify-content-between.mybtn.btn-link.collapsed:hover {
+	transition: all .4s linear;
+	color: #ff590ed4;
+}
+
+i.fa.fa-circle-thin.fa-stack-2x {
+    color: #f4f4f4;
+}
+
+.myaccordion .card-body {
+	padding: 1.25rem !important;
+}
+
+.myaccordion button::before, button::after {
+    width: 0;
+    height: 0;
+}
+
+.btn-link:active {
+  border:none;
+}
+
 /* Link Transitions and Effects */
 /* Forward */
 .arrow-link {
@@ -868,6 +942,8 @@ footer {
 	background-color: #00285e;
 	padding: 3% 0 3% 0;
 	background-size:cover;
+	background-repeat:no-repeat;
+	background-position: 51% 68%;
 
 }
 
@@ -879,6 +955,13 @@ footer {
 
 .final-footer img {
 	width: 100%;
+}
+
+footer h3 {
+	color:#fff !important;
+	padding-bottom:15px;
+	margin-top:15px;
+	letter-spacing:1px;
 }
 
 footer p {
@@ -893,6 +976,10 @@ footer ul {
     font-family: 'GentonaBook' !important;
     list-style-type: none;
 		padding-left: 0;
+}
+
+footer li {
+	margin:10px;
 }
 
 footer li a {
@@ -1077,6 +1164,9 @@ figure.effect-roxy:hover p {
 		top: 22px;
 		display:block;
 	}
+	h1.rap-title {
+	font-size: 2.125em;
+}
 }
 
 @media (min-width: 600px) {
@@ -1107,13 +1197,22 @@ figure.effect-roxy:hover p {
 
 @media (min-width: 650px) {
 	img.uf-logo {
-		width: 300px !important;
+			width: 300px !important;
+		}
+	.ai-course-grid {
+	margin-top: -200px;
 	}
 }
 
 @media (min-width: 700px) {
 	.grid {
 		justify-content:center;
+	}
+}
+
+@media (min-width: 767px) {
+	.page-title {
+		font-size: 4em;
 	}
 }
 
@@ -1124,11 +1223,9 @@ figure.effect-roxy:hover p {
 		.about-img{
 		margin-bottom:-90px;
 	}
+	.large-text {
+font-size:3.125em;
 }
-@media (min-width: 767px) {
-	.page-title {
-		font-size: 4em;
-	}
 }
 
 @media (min-width:770px){
@@ -1150,13 +1247,59 @@ figure.effect-roxy:hover p {
 	}
 }
 
+@media (min-width: 800px) {
+	.accordion {
+		width:80%;
+	}
+		h1.rap-title {
+		font-size: 2.125em;
+	}
+}
+
+@media (min-width:860px) {
+			h1.hero-text {
+    font-size: 4.125em;
+	}
+	h1.internal-hero-text {
+		font-size:3.125em;
+	}
+		h1.internal-hero-text.chw-hero {
+		font-size:3em !important;
+	}
+	h1.internal-hero-text-ceu{
+		font-size:2.72em;
+	}
+			h1.rap-title {
+		margin-top: -35px;
+	}
+}
+
 @media (min-width: 992px) {
+	.college-logo img {
+    max-width: 110px;
+}
 	footer {
-		height:500px;
+		height:600px;
 	}
 	body {
-		padding-bottom:500px;
+		padding-bottom:600px;
 	}
+}
+
+@media (min-width: 999px) {
+.internal-hero-image {
+	margin-top: 90px;
+}
+	.internal-hero-image-blog {
+	margin-top:0px;
+}
+
+	.pb-5.ai-paths-desktop {
+    display: block;
+}
+	.text {
+	top:125px;
+}
 }
 
 @media (min-width: 1000px) {
@@ -1177,6 +1320,25 @@ figure.effect-roxy:hover p {
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
+	.hero-image {
+	margin-top:90px;
+	height:450px;
+}
+		.main-nav {
+		position: fixed !important;
+	}
+		#particles-js {
+	margin-top: 90px;
+}
+		.accordion {
+		width:60%;
+	}
+		.contact-form {
+		 margin-top: -100px !important;
+	}
+	.slider-internal-div {
+	padding: 98px 0 0;
+}
 }
 
 @media (min-width: 1001px) {
@@ -1200,6 +1362,49 @@ figure.effect-roxy:hover p {
     padding: 130px 23px !important;
 	}
 }
+@media (min-width:1200px) {
+  .flip-card-back {
+  transform: rotateY(180deg);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .flip-card:focus {
+    outline: 0;
+}
+.flip-card-back img {
+    width:300px;
+  height:300px;
+	border-radius:.25rem !important;
+  object-fit:cover;
+}
+.flip-card:hover .flip-card-inner,
+.flip-card:focus .flip-card-inner{
+  transform: rotateY(180deg);
+}
+	.flip-card-back {
+	display:block;
+}
+				h1.rap-title {
+		font-size: 3.125em;
+					margin-top:-39px;
+	}
+	.internal-hero-image {
+    height: 200px !important;
+}
+
+	.ai-course-grid {
+		margin-top: -300px;
+	}
+}
+
+@media (min-width:1223px) {
+.home-course-grid {
+	justify-content:end !important;
+}
+}
 
 @media (min-width: 1250px) {
 	img.uf-logo {
@@ -1209,6 +1414,32 @@ figure.effect-roxy:hover p {
 @media (min-width:1500px) {
 	img.uf-logo {
 		width:400px !important;
+	}
+}
+
+@media (min-width:1350px) {
+	.college-logo img {
+    max-width: 150px;
+}
+}
+@media (min-width: 1425px) {
+	.accordion {
+		width:50%;
+	}
+}
+
+@media (min-width:1500px) {
+	img.uf-logo {
+		width:400px !important;
+	}
+	.ai-course-grid {
+		margin-top:-450px;
+	}
+}
+
+@media (min-width:1850px) {
+	.ai-course-grid {
+		margin-top:-500px;
 	}
 }
 
