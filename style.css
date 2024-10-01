@@ -542,31 +542,6 @@ img.uf-logo {
 	outline: none;
 }
 
-.nav-tabs {
-    border-bottom: none !important;
-}
-
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: #fff !important;
-    background-color: #ff590e !important;
-	  box-shadow:1px 5px 8px rgb(0 0 0 / 10%);
-	border-radius:13px !important;
-}
-.nav-link:hover {
-    background-color: #00285d !important;
-		box-shadow:1px 5px 8px rgb(0 0 0 / 10%);
-	color:#fff !important;
-}
-
-.nav-link {
-	margin: 0rem .5rem !important;
-}
-
-.nav-tabs .nav-link {
-    border: none !important;
-	border-radius:13px !important;
-}
-
 /* Search Bar */
 input#searchsubmit {
     background-color: #ff590e;
