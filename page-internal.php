@@ -2,6 +2,12 @@
 
 <?php get_header(); ?>
 
+<?php
+if ( function_exists('yoast_breadcrumb') ) {
+  yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+}
+?>
+  
 <div class="main-content">
   <?php
     if(have_posts()){
