@@ -490,7 +490,7 @@ header {
 }
 
 .row.main-nav {
-		top:0;
+		/*top:0;*/
 		box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
 	background-color: #001a3d !important;
 	align-content: center;
@@ -499,14 +499,14 @@ header {
 	align-items:center;
 }
 .main-nav {
-	position: fixed;
+	/*position: fixed;*/
 	z-index: 2;
 	width: 100%;
   background-color:#fff;
 }
 div#site-nav {
     background-color: #00285d;
-		z-index:-2;
+		/*z-index:-2;*/
 	}
 
 img.uf-logo {
@@ -1311,7 +1311,7 @@ font-size:3.125em !important;
 
 @media (min-width: 999px) {
 .internal-hero-image {
-	margin-top: 90px;
+	/*margin-top: 90px;*/
 }
 	.internal-hero-image-blog {
 	margin-top:0px;
