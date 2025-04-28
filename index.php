@@ -1,11 +1,15 @@
 <?php get_header(); ?>
 
 <div class="main-content">
-  <div class="internal-hero-image" style="background-color:#001b3d; background-image: linear-gradient(360deg, #00529be3, #00285ddb, #001a3d), url('https://pwd.aa.ufl.edu/wp-content/uploads/2021/03/0I1A5562-scaled.jpg');">
-  <div class="container internal-div">
-  <h1 class="internal-hero-text text-center">OPWD INSIDER</h1>
-  </div>
-  </div>
+  <div class="breadcrumbs-container">
+<div class="container">
+<?php
+if ( function_exists('yoast_breadcrumb') ) {
+  yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+}
+?>
+</div>
+</div>
 
   <div class="container pt-5 pb-5">
     <div class="row">
