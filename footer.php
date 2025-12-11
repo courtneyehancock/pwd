@@ -19,7 +19,7 @@
   <div class="container-fluid final-footer">
     <div class="row align-items-center">
       <div class="col-lg-9">
-        <p> © <?php echo date("Y"); ?> University of Florida Professional and Workforce Development | <a href="https://pwd.aa.ufl.edu/website-feedback/">Website Feedback</a> | <a href="https://privacy.ufl.edu/privacy-policies-and-procedures/onlineinternet-privacy-statement/">UF Privacy Policy</a></p>
+        <p> © <?php echo date("Y"); ?> University of Florida Professional and Workforce Development | <a href="mailto:branding@aa.ufl.edu">Website Feedback</a> | <a href="https://privacy.ufl.edu/privacy-policies-and-procedures/onlineinternet-privacy-statement/">UF Privacy Policy</a></p>
       </div>
 
       <div class="col-lg-3">
