@@ -775,6 +775,7 @@ ul.post-categories {
 	list-style-type: none;
 	margin-bottom: 0;
 	padding-left: 5px;
+	height:44px;
 }
 
 .post-categories li a {
