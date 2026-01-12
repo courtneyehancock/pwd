@@ -23,7 +23,7 @@ if ( function_exists('yoast_breadcrumb') ) {
             <div class="card">
               <?php the_post_thumbnail('medium', ['class' => 'card-img-top']); ?>
               <div class="post-info">
-                <p><?php echo get_the_author();?><p>
+                <p><?php echo get_the_author();?></p>
                 <p><?php echo get_the_date(); ?></p>
               </div>
 
