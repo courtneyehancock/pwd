@@ -14,7 +14,7 @@
             </div>
             <div class="post-details mt-3 d-flex align-items-center">
             <p class="written-by"><?php echo get_the_author(); ?></p>
-            <p class="published"><?php echo get_the_date(); ?></p>
+            <p class="published"><?php echo get_the_date('m/d/Y'); ?></p>
             <p class="category-label"><?php the_category(); ?></p>
           </div>
             <h1 class="post-title mt-3 lines"><?php the_title(); ?></h1>
