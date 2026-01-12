@@ -230,7 +230,7 @@ ul li {
 
 ul.objectives {
     color: #f37022;
-    font-size: 15px;
+    font-size: 1rem;
     font-style: italic;
 	}
 
@@ -313,7 +313,7 @@ color: #fff !important;
 }
 
 .myaccordion .fa-stack {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 .fa-inverse {
@@ -328,7 +328,7 @@ color: #fff !important;
   padding: 5px;
   transition: padding .2s linear;
   border: none;
-	font-size:18px;
+	font-size:1.125rem;
   background-color:#fff;
 		text-decoration: none;
 }
@@ -375,7 +375,7 @@ i.fa.fa-circle-thin.fa-stack-2x {
     color: #ff590e;
     font-family: "Font Awesome 6 Pro";
 	font-weight:900;
-    font-size: 14px;
+    font-size: 0.875rem;
     display: inline-block;
     vertical-align: middle;
     -webkit-transition: all .15s ease-in-out;
