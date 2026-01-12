@@ -3,13 +3,15 @@
 <?php get_header(); ?>
 
 <div class="breadcrumbs-container">
-<div class="container">
-<?php
-if ( function_exists('yoast_breadcrumb') ) {
-  yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
-}
-?>
-</div>
+  <div class="container">
+    <?php
+    if ( function_exists('yoast_breadcrumb') ) {
+      echo '<nav aria-label="Breadcrumb">';
+      yoast_breadcrumb( '<p id="breadcrumbs">', '</p>' );
+      echo '</nav>';
+    }
+    ?>
+  </div>
 </div>
 
 <div class="main-content">
