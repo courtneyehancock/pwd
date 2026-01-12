@@ -24,7 +24,7 @@ if ( function_exists('yoast_breadcrumb') ) {
               <?php the_post_thumbnail('medium', ['class' => 'card-img-top']); ?>
               <div class="post-info">
                 <p><?php echo get_the_author();?></p>
-                <p><?php echo get_the_date(); ?></p>
+                <p><?php echo get_the_date('m/d/Y'); ?></p>
               </div>
 
             <div class="card-body mb-2">
