@@ -198,17 +198,16 @@ a.aa {
 }
 
 a.aa:hover {
-	color:#00529b;
+	color:#fff;
 }
 
 .btn {
     border: none !important;
     font-family: 'Aptos-Bold' !important;
     color: #fff;
-		background-color: #ff590e;
+		background-color: #00529b;
 	border-radius: 5px;
-		letter-spacing:1px;
-		text-transform: capitalize;
+		letter-spacing:0.05rem;
 		padding: .5rem 1rem !important;
 }
 .btn:hover {
