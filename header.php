@@ -61,14 +61,13 @@
           <?php dynamic_sidebar('head-social-widget'); ?>
         </div>
         <div class="d-flex align-items-center"><i class="fas fa-search icon-orange" aria-hidden="true"></i>
-        <form role="search" method="get" class="searchform" action="https://pwd.aa.ufl.edu/">
-    <label class="screen-reader-text">
-        Search site
-        <input type="search" name="s">
-    </label>
-
-    <input type="submit" value="Search">
-</form>
+       <form role="search" method="get" id="searchform" class="searchform" action="https://pwd.aa.ufl.edu/"> 
+         <div> 
+           <label class="screen-reader-text" for="s">Search site</label>
+           <input type="search" value="" name="s" id="s" aria-label="Search site">
+           <input type="submit" id="searchsubmit" value="Search">
+         </div>
+       </form>
       </div>
     </div>
       <div class="col-md-12" id="site-nav">
