@@ -3,12 +3,13 @@ get_header();
 ?>
 <div class="main-content">
   <div class="container pt-5 pb-5">
+        <h1>Search Results</h1>
         <?php if(have_posts()){?>
-                <h1><?php printf(__('SEARCH RESULTS FOR : %s'), '<span>' . get_search_query() . '</span>');?></h1>
+                <h2><?php printf(__('Results for: %s'), '<span>' . get_search_query() . '</span>');?></h2>
                 <hr>
                 <?php while(have_posts()){
                   the_post(); ?>
-                  <h3>>> <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                  <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                   <?php the_excerpt();
                 }
               }else{?>
