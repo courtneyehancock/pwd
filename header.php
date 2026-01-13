@@ -60,11 +60,11 @@
           <!--Middle Right Footer-->
           <?php dynamic_sidebar('head-social-widget'); ?>
         </div>
-        <div class="d-flex align-items-center"><i class="fas fa-search icon-orange"></i>
+        <div class="d-flex align-items-center"><i class="fas fa-search icon-orange" aria-hidden="true"></i>
         <form role="search" method="get" id="searchform" class="searchform" action="https://pwd.aa.ufl.edu/">
     				<div>
-    					<label class="screen-reader-text" for="s">Search for:</label>
-    					<input type="text" value="" name="s" id="s">
+    					<label class="screen-reader-text" for="s">Search site</label>
+    					<input type="search" value="" name="s" id="s">
     					<input type="submit" id="searchsubmit" value="Search">
     				</div>
     			</form>
