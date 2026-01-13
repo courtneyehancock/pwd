@@ -942,15 +942,17 @@ footer li {
 	margin:10px;
 }
 
-footer li a {
+footer li a,
+footer a {
   text-decoration: none;
   color: #fff;
   transition: 0.2s;
 }
 
-footer li a:hover {
+footer li a:hover,
+footer a:hover {
   color: #ff590e;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .widget-footer.widget-right a {
