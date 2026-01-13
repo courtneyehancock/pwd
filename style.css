@@ -372,7 +372,7 @@ i.fa.fa-circle-thin.fa-stack-2x {
    /* bottom: 0.2ex;*/
     margin-left: 5px;
     content: "\f061";
-    color: #ff590e;
+    color: #00529b;
     font-family: "Font Awesome 6 Pro";
 	font-weight:900;
     font-size: 0.875rem;
@@ -383,7 +383,7 @@ i.fa.fa-circle-thin.fa-stack-2x {
 
 .arrow-link:hover:after {
     transform: translateX(2px);
-		color:#00529b;
+		color:#ff590e;
   }
 /* Grow */
 .grow {
