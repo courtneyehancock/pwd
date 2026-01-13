@@ -322,7 +322,7 @@ color: #fff !important;
 .myaccordion .mybtn {
   width: 100%;
   /*font-weight: bold;*/
-  color: #ff590e;
+  color: #00529b;
 	font-family: 'Aptos';
   padding: 5px;
   transition: padding .2s linear;
@@ -337,12 +337,12 @@ color: #fff !important;
 }
 
 button.d-flex.align-items-center.justify-content-between.mybtn.btn-link.collapsed:hover {
-	transition: all .4s linear;
-	color: #ff590ed4;
+	text-decoration:underline;
+	color: #00285d;
 }
 
 i.fa.fa-circle-thin.fa-stack-2x {
-    color: #f4f4f4;
+    color: #eef3f7;
 }
 
 .myaccordion .card-body {
