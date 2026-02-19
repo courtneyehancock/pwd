@@ -363,7 +363,6 @@ i.fa.fa-circle-thin.fa-stack-2x {
 .arrow-link {
   -webkit-transition: all .15s ease-in-out;
   background-color: transparent;
-  text-decoration: none;
   white-space: nowrap;
 }
 .arrow-link:after {
