@@ -133,27 +133,27 @@ html {
 
 h1 {
   font-family: 'Anybody_Expanded-Bold', sans-serif !important;
-  color: #00529b;
+  color: #0021a5;
 	font-size: 1.7em;
 	font-weight:bold;
 }
 
 h2 {
   font-family: 'Anybody_Expanded', serif !important;
-  color: #00529b;
+  color: #0021a5;
 	font-size: 1.5em;
 	letter-spacing:.8px;
 }
 
 h3 {
   font-family: 'Aptos-Black', serif !important;
-  color: #00529b;
+  color: #0021a5;
 	font-size: 1.3em;
 }
 
 h4 {
   font-family: 'Aptos', sans-serif !important;
-  color: #00529b;
+  color: #0021a5;
 	font-size: 1.25rem;
 	text-transform: uppercase;
 	letter-spacing: 0.125rem;
@@ -161,13 +161,13 @@ h4 {
 
 h5 {
   font-family: 'Aptos-Bold', sans-serif !important;
-  color: #00529b;
+  color: #0021a5;
 	font-size: 1.125rem;
 }
 
 h6 {
   font-family: 'Aptos-Bold-Italic', sans-serif !important;
-  color: #00529b;
+  color: #0021a5;
 	font-size: 1.125rem;
 }
 
@@ -184,17 +184,17 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 a {
-	color: #00529b;
+	color: #0021a5;
 	text-decoration: underline;
 }
 
 a:hover {
-	color: #00285d;
+	color: #002657;
 	font-weight; bolder;
 }
 
 a.aa {
-	color:#ff590e;
+	color:#fa4616;
 }
 
 a.aa:hover {
@@ -205,7 +205,7 @@ a.aa:hover {
     border: none !important;
     font-family: 'Aptos-Bold' !important;
     color: #fff;
-		background-color: #00529b;
+		background-color: #0021a5;
 	border-radius: 5px;
 		letter-spacing:0.05rem;
 		padding: .5rem 1rem !important;
@@ -213,7 +213,7 @@ a.aa:hover {
 .btn:hover {
   border: none;
   color: #fff;
-	background-color: #00285d;
+	background-color: #002657;
 }
 
 ul li {
@@ -234,7 +234,7 @@ ul.objectives {
 	}
 
 .border-title {
-	border-left: 5px solid #ff590e;
+	border-left: 5px solid #fa4616;
   padding-left: 13px;
   position: relative;
   left: -19px;
@@ -243,12 +243,12 @@ ul.objectives {
 hr.vertical {
     width: 0px;
     height: 200px;
-    border: .95px solid #00285db3;
+    border: .95px solid #0021a5b3;
 	margin:0 auto;
 }
 
 .block {
-	background-color: #ff590e;
+	background-color: #fa4616;
   height: 2px;
   width: 100px;
   margin: 10px 10px 20px 10px;
@@ -256,12 +256,12 @@ hr.vertical {
 
 /* Icon Styling */
 i.icon-orange {
-	color:#ff590e;
+	color:#fa4616;
 	margin-right:10px;
 }
 
 i.icon-blue {
-	color:#00529b;
+	color:#0021a5;
 	margin-right:10px;
 }
 
@@ -275,7 +275,7 @@ position: absolute;
 color: #fff !important;
     width: 35px;
     height: 35px;
-    background: #ff590e;
+    background: #fa4616;
     text-align: center;
     justify-content: center;
     display: flex;
@@ -316,13 +316,13 @@ color: #fff !important;
 }
 
 .fa-inverse {
-    color: #ff590e;
+    color: #fa4616;
 }
 
 .myaccordion .mybtn {
   width: 100%;
   /*font-weight: bold;*/
-  color: #00529b;
+  color: #0021a5;
 	font-family: 'Aptos';
   padding: 5px;
   transition: padding .2s linear;
@@ -338,7 +338,7 @@ color: #fff !important;
 
 button.d-flex.align-items-center.justify-content-between.mybtn.btn-link.collapsed:hover {
 	text-decoration:underline;
-	color: #00285d;
+	color: #002657;
 }
 
 i.fa.fa-circle-thin.fa-stack-2x {
@@ -370,7 +370,7 @@ i.fa.fa-circle-thin.fa-stack-2x {
    /* bottom: 0.2ex;*/
     margin-left: 5px;
     content: "\f061";
-    color: #00529b;
+    color: #0021a5;
     font-family: "Font Awesome 6 Pro";
 	font-weight:900;
     font-size: 0.875rem;
@@ -381,7 +381,7 @@ i.fa.fa-circle-thin.fa-stack-2x {
 
 .arrow-link:hover:after {
     transform: translateX(2px);
-		color:#ff590e;
+		color:#fa4616;
   }
 /* Grow */
 .grow {
@@ -420,7 +420,7 @@ i.fa.fa-circle-thin.fa-stack-2x {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #ff590e;
+  background: #fa4616;
   height: 2px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -455,7 +455,7 @@ i.fa.fa-circle-thin.fa-stack-2x {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #ff590e;
+  background: #fa4616;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
@@ -514,7 +514,7 @@ header {
 .row.main-nav {
 		/*top:0;*/
 		box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-	background-color: #001a3d !important;
+	background-color: #0021a5 !important;
 	align-content: center;
    margin: 0;
 	display:flex;
@@ -527,7 +527,7 @@ header {
   background-color:#fff;
 }
 div#site-nav {
-    background-color: #00285d;
+    background-color: #0021a5;
 		/*z-index:-2;*/
 	}
 
@@ -566,9 +566,9 @@ img.uf-logo {
 
 /* Search Bar */
 input#searchsubmit {
-    background-color: #ff590e;
+    background-color: #fa4616;
     color: #ffffff;
-    border: 2px solid #ff590e;
+    border: 2px solid #fa4616;
 }
 
 form label.screen-reader-text {
@@ -637,7 +637,7 @@ h1.rap-title {
     line-height: normal;
     text-shadow: 3px 5px 5px rgb(0 0 0 / 25%);
 		font-family:'BillionDreams', serif !important;
-	color:#ff590e;
+	color:#fa4616;
 	font-weight:normal;
 	text-align:center;
 }
@@ -646,7 +646,7 @@ h1.rap-title {
 
 /* -- SUPPORT PAGE -- */
 .support-info {
-    background-color: #00285d;
+    background-color: #002657;
 	border-radius:0 0 1.25em 1.25em;
 }
 
@@ -666,7 +666,7 @@ h1.rap-title {
 p.team-name {
     text-align: center;
     font-size: 0.875rem;
-    font-family: 'Obviously-Wide' !important;
+    font-family: 'Anybody' !important;
     letter-spacing: 0.03em;
 		text-align:center;
 		padding-bottom: 3px;
@@ -738,7 +738,7 @@ img.avatar.avatar-60.photo {
 }
 
 .post-details p {
-	color:#00529b;
+	color:#0021a5;
 }
 
 .post-info {
@@ -749,7 +749,7 @@ img.avatar.avatar-60.photo {
 
 .post-info p {
 	font-size:1rem;
-	color:#00529b;
+	color:#0021a5;
 }
 
 .written-by,
@@ -777,11 +777,11 @@ ul.post-categories {
 
 .post-categories li a {
     font-size: 1rem;
-	color:#00529b;
+	color:#0021a5;
 }
 
 .post-categories li a:hover {
-	color:#ff590e;
+	color:#fa4616;
 }
 
 img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
@@ -847,7 +847,7 @@ iframe.leadership-wk-form {
 
 label.field-label {
     font-weight: 400 !important;
-    color: #ff590e !important;
+    color: #fa4616 !important;
 }
 
 /* Protected Page Form */
@@ -875,7 +875,7 @@ h3.gsection_title {
     border: none !important;
     font-family: 'Aptos-Bold' !important;
     color: #ffffff;
-    background-color: #00529b;
+    background-color: #0021a5;
     box-shadow: 1px 5px 8px rgb(0 0 0 / 10%);
     text-shadow: 1px 1px 0px RGBA(0,0,0,0.17);
     padding: 0.375rem 0.75rem;
@@ -896,8 +896,8 @@ button::before, button::after {
 /* -- FOOTER -- */
 
 footer {
-	background-image: linear-gradient(135deg, #00529be3, #00285ddb, #001a3d), url('https://pwd.aa.ufl.edu/wp-content/uploads/2021/09/0I1A7293.jpg');
-	background-color: #00285e;
+	background-image: linear-gradient(135deg, #0021a5de, #002657), url('https://pwd.aa.ufl.edu/wp-content/uploads/2021/09/0I1A7293.jpg');
+	background-color: #002657;
 	padding: 3% 0 3% 0;
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -949,7 +949,7 @@ footer a {
 
 footer li a:hover,
 footer a:hover {
-  color: #ff590e;
+  color: #fa4616;
 	text-decoration: underline;
 }
 
@@ -957,7 +957,7 @@ footer a:hover {
   color: #fff;
 }
 .widget-footer.widget-right a:hover {
-  color: #ff590e;
+  color: #fa4616;
 }
 
 footer img {
@@ -1066,7 +1066,7 @@ figcaption p {
 /*---------------*/
 
 figure.effect-roxy {
-	background: #00285d;
+	background: #0021a5;
 }
 
 figure.effect-roxy img {
