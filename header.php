@@ -13,7 +13,8 @@
   <!-- End Google Tag Manager -->
   <!--Facebook Meta Tag-->
   <meta name="facebook-domain-verification" content="rtkjhpxmfz6ny9m5emxv1v6j2up7jk" />
-
+<!--Adobe IvyPresto Font-->
+  <link rel="stylesheet" href="https://use.typekit.net/roz5znz.css">
   <!--Classica Web Font-->
   <link rel="stylesheet" href="https://use.typekit.net/roz5znz.css">
    <!--font awesome-->
