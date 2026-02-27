@@ -528,6 +528,7 @@ header {
 }
 div#site-nav {
     background-color: #0021a5;
+	border-top: 1px solid #1936ab;
 		/*z-index:-2;*/
 	}
 
@@ -535,7 +536,7 @@ img.uf-logo {
 	width: 250px;
   position: absolute;
   left:0;
-	border-right: 1px solid #03285d;
+	border-right: 1px solid #1936ab;
   padding:15px;
 }
 
