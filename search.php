@@ -3,9 +3,8 @@ get_header();
 ?>
 <div class="main-content">
   <div class="container pt-5 pb-5">
-        <h1>Search Results</h1>
         <?php if(have_posts()){?>
-                <h2><?php printf(__('Results for: %s'), '<span>' . get_search_query() . '</span>');?></h2>
+                <h1><?php printf(__('Search Results for: %s'), '<span>' . get_search_query() . '</span>');?></h1>
                 <hr>
                 <?php while(have_posts()){
                   the_post(); ?>
