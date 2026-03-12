@@ -2,13 +2,13 @@
 
 <div class="main-content">
   <div class="breadcrumbs-container">
-<div class="container">
+<nav class="container" aria-label="Breadcrumb">
 <?php
 if ( function_exists('yoast_breadcrumb') ) {
   yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
 }
 ?>
-</div>
+</nav>
 </div>
   <div class="container mt-5 page-top">
       <div class="row">
