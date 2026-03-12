@@ -21,17 +21,25 @@ if ( function_exists('yoast_breadcrumb') ) {
             the_post();?>
             <div class="col-xl-4 mb-3">
             <div class="card">
-              <?php the_post_thumbnail('medium', ['class' => 'card-img-top']); ?>
+              <?php
+$thumbnail_id = get_post_thumbnail_id();
+$alt = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);
+?>
+
+<?php the_post_thumbnail('medium', [
+'class' => 'card-img-top',
+'alt' => esc_attr($alt ?: get_the_title())
+]); ?>
               <div class="post-info">
-                <p><?php echo get_the_author();?></p>
-                <p><?php echo get_the_date('m/d/Y'); ?></p>
+                <p><span class="screen-reader-text">Author: </span><?php echo get_the_author();?></p>
+<p><span class="screen-reader-text">Published on: </span><?php echo get_the_date('m/d/Y'); ?></p>
               </div>
 
             <div class="card-body mb-2">
             <h3 class="post-title card-title"><a href="<?php the_permalink(); ?>" aria-label="Read blog post: <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
             <span class="blog-excerpt"><?php the_excerpt(); ?></span>
             <div class="card-line"></div>
-            <span class="blog-category pt-2"><?php the_category(); ?></span>
+            <span class="blog-category pt-2" aria-label="Post categories"><?php the_category(', '); ?></span>
             </div>
           </div>
             </div>
