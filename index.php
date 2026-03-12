@@ -28,7 +28,7 @@ if ( function_exists('yoast_breadcrumb') ) {
               </div>
 
             <div class="card-body mb-2">
-            <h3 class="post-title card-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+            <h3 class="post-title card-title"><a href="<?php the_permalink(); ?>" aria-label="Read blog post: <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
             <span class="blog-excerpt"><?php the_excerpt(); ?></span>
             <div class="card-line"></div>
             <span class="blog-category pt-2"><?php the_category(); ?></span>
