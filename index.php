@@ -52,7 +52,9 @@ $alt = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);
     </div>
       <div class="col-lg-3 p-3">
         <!--Recent Posts-->
-        <?php dynamic_sidebar('recent-posts'); ?>
+     <aside aria-label="Recent blog posts">
+<?php dynamic_sidebar('recent-posts'); ?>
+</aside>
 
       </div>
     </div>
